@@ -1,15 +1,14 @@
+import json
 from pathlib import Path
 
 from benchmark.image_metrics import ImageMetrics
 from benchmark.layout_metrics import LayoutMetrics
 from benchmark.llm_judge import LLMJudge
 from benchmark.profiler import Profiler
-from benchmark.quality_metrics import QualityMetrics
 from benchmark.report_generator import ReportGenerator
 from benchmark.robustness_metrics import RobustnessMetrics
 from benchmark.table_metrics import TableMetrics
 from benchmark.text_metrics import TextMetrics
-
 from parsers.parser_factory import ParserFactory
 
 
@@ -19,7 +18,10 @@ class BenchmarkRunner:
     and evaluates their outputs.
     """
 
-    def __init__(self, pdf_path: str):
+    def __init__(
+        self,
+        pdf_path: str,
+    ):
 
         self.pdf_path = pdf_path
 
@@ -41,22 +43,39 @@ class BenchmarkRunner:
 
             print(f"\nRunning {parser_name}...")
 
-            parser = ParserFactory.get_parser(parser_name)
+            parser = ParserFactory.get_parser(
+                parser_name,
+            )
 
             output_dir = (
                 Path("outputs")
                 / parser_name
             )
 
-            markdown_path = output_dir / "output.md"
+            markdown_path = (
+                output_dir
+                / "output.md"
+            )
 
-            json_path = output_dir / "output.json"
+            json_path = (
+                output_dir
+                / "output.json"
+            )
+
+            normalized_path = (
+                output_dir
+                / "normalized.json"
+            )
 
             profiler_results = Profiler.run(
                 parser=parser,
                 pdf_path=self.pdf_path,
-                markdown_path=str(markdown_path),
-                json_path=str(json_path),
+                markdown_path=str(
+                    markdown_path,
+                ),
+                json_path=str(
+                    json_path,
+                ),
             )
 
             result = {
@@ -66,63 +85,61 @@ class BenchmarkRunner:
 
             if profiler_results["status"] == "Success":
 
+                with open(
+                    normalized_path,
+                    "r",
+                    encoding="utf-8",
+                ) as file:
+
+                    normalized_document = json.load(
+                        file,
+                    )
+
                 result.update(
                     TextMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                        normalized_document,
                     )
                 )
 
                 result.update(
                     TableMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
-                    )
-                )
-
-                result.update(
-                    LayoutMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                        normalized_document,
                     )
                 )
 
                 result.update(
                     ImageMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                        normalized_document,
                     )
                 )
 
                 result.update(
-                    QualityMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                    LayoutMetrics.evaluate(
+                        normalized_document,
                     )
                 )
 
                 result.update(
                     RobustnessMetrics.evaluate(
-                        pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                        normalized_document,
                     )
                 )
 
                 result.update(
                     LLMJudge.evaluate(
                         pdf_path=self.pdf_path,
-                        markdown_path=str(markdown_path),
-                        json_path=str(json_path),
+                        markdown_path=str(
+                            markdown_path,
+                        ),
+                        json_path=str(
+                            json_path,
+                        ),
                     )
                 )
 
-            benchmark_results.append(result)
+            benchmark_results.append(
+                result,
+            )
 
             print(
                 f"{parser_name}: {result['status']}"

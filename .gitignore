@@ -1,57 +1,55 @@
 # Python
+
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
+*.py,cover
 
-# Virtual environments
+#Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
-# Environment variables
+#environment variables
 .env
 .env.*
 
-# IDEs
+#IDEs
 .vscode/
 .idea/
 
-# OS files
+#OS Files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Pytest
+#Python test files
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
 
-# MyPy
+#Static analysis
 .mypy_cache/
-
-# Ruff
 .ruff_cache/
 
-# Logs
+#logs
 *.log
 
-# Build artifacts
+#build artifacts
 build/
 dist/
 *.egg-info/
+.eggs/
+pip-wheel-metadata/
 
-# Jupyter
+#jupyter
 .ipynb_checkpoints/
 
-# Benchmark outputs
-outputs/
-
-# Temporary files
+#Temporary files
 tmp/
 temp/
-
-# PDF test files (optional)
-# Uncomment if you don't want to commit sample PDFs
-# *.pdf
+*.tmp

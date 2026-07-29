@@ -1,6 +1,7 @@
 import csv
 import json
 from pathlib import Path
+from typing import Any
 
 
 class ReportGenerator:
@@ -9,26 +10,52 @@ class ReportGenerator:
     """
 
     @staticmethod
-    def save_json(results: list[dict], output_file: str):
+    def save_json(
+        results: list[dict[str, Any]],
+        output_file: str,
+    ) -> None:
+        """
+        Saves benchmark results as a JSON file.
+        """
 
         output_path = Path(output_file)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
-        with open(output_path, "w", encoding="utf-8") as file:
+        with output_path.open(
+            "w",
+            encoding="utf-8",
+        ) as file:
             json.dump(
                 results,
                 file,
                 indent=4,
+                ensure_ascii=False,
             )
 
     @staticmethod
-    def save_csv(results: list[dict], output_file: str):
+    def save_csv(
+        results: list[dict[str, Any]],
+        output_file: str,
+    ) -> None:
+        """
+        Saves benchmark results as a CSV file.
+        """
+
+        if not results:
+            return
 
         output_path = Path(output_file)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
-        with open(
-            output_path,
+        fieldnames = list(results[0].keys())
+
+        with output_path.open(
             "w",
             newline="",
             encoding="utf-8",
@@ -36,7 +63,8 @@ class ReportGenerator:
 
             writer = csv.DictWriter(
                 file,
-                fieldnames=results[0].keys(),
+                fieldnames=fieldnames,
+                extrasaction="ignore",
             )
 
             writer.writeheader()
