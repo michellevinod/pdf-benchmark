@@ -9,6 +9,7 @@ class LayoutMetrics:
     @staticmethod
     def evaluate(
         normalized_document: dict[str, Any],
+        reference_layout_count: int,
     ) -> dict:
 
         pages = normalized_document.get(
@@ -50,12 +51,51 @@ class LayoutMetrics:
             else 0
         )
 
+        layout_coverage = (
+            (
+                min(
+                    total_layout_blocks,
+                    reference_layout_count,
+                )
+                / reference_layout_count
+            )
+            * 100
+            if reference_layout_count
+            else 0
+        )
+
+        missing_layout_blocks = max(
+            0,
+            reference_layout_count
+            - total_layout_blocks,
+        )
+
+        extra_layout_blocks = max(
+            0,
+            total_layout_blocks
+            - reference_layout_count,
+        )
+
         return {
-            "layout_block_count": total_layout_blocks,
-            "pages_with_layout": pages_with_layout,
-            "ocr_pages": ocr_pages,
-            "average_layout_blocks_per_page": round(
-                average_layout_blocks_per_page,
-                2,
-            ),
+            "layout_statistics": {
+                "layout_block_count": total_layout_blocks,
+                "pages_with_layout": pages_with_layout,
+                "ocr_pages": ocr_pages,
+                "average_layout_blocks_per_page": round(
+                    average_layout_blocks_per_page,
+                    2,
+                ),
+            },
+            "layout_quality": {
+                "layout_coverage_percent": round(
+                    layout_coverage,
+                    2,
+                ),
+                "missing_layout_blocks": (
+                    missing_layout_blocks
+                ),
+                "extra_layout_blocks": (
+                    extra_layout_blocks
+                ),
+            },
         }

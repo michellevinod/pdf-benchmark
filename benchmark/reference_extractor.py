@@ -82,3 +82,27 @@ class ReferenceExtractor:
 
         finally:
             document.close()
+
+    @staticmethod
+    def extract_layout_count(
+        pdf_path: str,
+    ) -> int:
+        """
+        Extracts an approximate layout block count from the PDF.
+        """
+
+        document = fitz.open(pdf_path)
+
+        try:
+            total_blocks = 0
+
+            for page in document:
+                blocks = page.get_text(
+                    "blocks",
+                )
+                total_blocks += len(blocks)
+
+            return total_blocks
+
+        finally:
+            document.close()

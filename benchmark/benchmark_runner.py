@@ -56,6 +56,12 @@ class BenchmarkRunner:
             )
         )
 
+        reference_layout_count = (
+            ReferenceExtractor.extract_layout_count(
+                self.pdf_path,
+            )
+        )
+
         for parser_name in self.parsers:
 
             print(f"\nRunning {parser_name}...")
@@ -136,6 +142,7 @@ class BenchmarkRunner:
                 result.update(
                     LayoutMetrics.evaluate(
                         normalized_document,
+                        reference_layout_count,
                     )
                 )
 
