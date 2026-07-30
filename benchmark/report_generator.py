@@ -41,7 +41,7 @@ class ReportGenerator:
         output_file: str,
     ) -> None:
         """
-        Saves benchmark results as a CSV file.
+        Saves benchmark results as a flattened CSV file.
         """
 
         if not results:
@@ -53,7 +53,41 @@ class ReportGenerator:
             exist_ok=True,
         )
 
-        fieldnames = list(results[0].keys())
+        def flatten(
+            data: dict[str, Any],
+            parent_key: str = "",
+        ) -> dict[str, Any]:
+
+            flattened = {}
+
+            for key, value in data.items():
+
+                new_key = (
+                    f"{parent_key}_{key}"
+                    if parent_key
+                    else key
+                )
+
+                if isinstance(value, dict):
+                    flattened.update(
+                        flatten(
+                            value,
+                            new_key,
+                        )
+                    )
+                else:
+                    flattened[new_key] = value
+
+            return flattened
+
+        flattened_results = [
+            flatten(result)
+            for result in results
+        ]
+
+        fieldnames = list(
+            flattened_results[0].keys()
+        )
 
         with output_path.open(
             "w",
@@ -64,8 +98,9 @@ class ReportGenerator:
             writer = csv.DictWriter(
                 file,
                 fieldnames=fieldnames,
-                extrasaction="ignore",
             )
 
             writer.writeheader()
-            writer.writerows(results)
+            writer.writerows(
+                flattened_results
+            )

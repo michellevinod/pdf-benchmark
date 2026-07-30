@@ -5,6 +5,7 @@ from benchmark.image_metrics import ImageMetrics
 from benchmark.layout_metrics import LayoutMetrics
 from benchmark.llm_judge import LLMJudge
 from benchmark.profiler import Profiler
+from benchmark.reference_extractor import ReferenceExtractor
 from benchmark.report_generator import ReportGenerator
 from benchmark.robustness_metrics import RobustnessMetrics
 from benchmark.table_metrics import TableMetrics
@@ -38,6 +39,22 @@ class BenchmarkRunner:
         print("=" * 60)
 
         benchmark_results = []
+
+        reference_pages = ReferenceExtractor.extract_text(
+            self.pdf_path,
+        )
+
+        reference_table_count = (
+            ReferenceExtractor.extract_table_count(
+                self.pdf_path,
+            )
+        )
+
+        reference_image_count = (
+            ReferenceExtractor.extract_image_count(
+                self.pdf_path,
+            )
+        )
 
         for parser_name in self.parsers:
 
@@ -98,18 +115,21 @@ class BenchmarkRunner:
                 result.update(
                     TextMetrics.evaluate(
                         normalized_document,
+                        reference_pages,
                     )
                 )
 
                 result.update(
                     TableMetrics.evaluate(
                         normalized_document,
+                        reference_table_count,
                     )
                 )
 
                 result.update(
                     ImageMetrics.evaluate(
                         normalized_document,
+                        reference_image_count,
                     )
                 )
 
