@@ -41,15 +41,23 @@
             "extracted_image_count": 62,
             "figure_count": 62,
             "pages_with_images": 46,
-            "average_images_per_page": 1.0
+            "average_images_per_page": 1.0,
+            "valid_extracted_bboxes": 62
         },
         "image_quality": {
             "reference_image_count": 62,
+            "valid_reference_bboxes": 62,
             "extracted_image_count": 62,
-            "missing_images": 0,
-            "extra_images": 0,
-            "image_coverage_percent": 100.0,
-            "structural_image_match": "N/A/Unsupported"
+            "matched_images": 40,
+            "missing_images": 22,
+            "extra_images": 22,
+            "image_precision": 0.6452,
+            "image_recall": 0.6452,
+            "image_f1_score": 0.6452,
+            "mean_iou": 0.8618,
+            "image_match_rate_percent": 64.52,
+            "structural_image_match": 86.18,
+            "iou_threshold": 0.5
         },
         "layout_statistics": {
             "layout_block_count": 2738,
@@ -115,15 +123,23 @@
             "extracted_image_count": 0,
             "figure_count": 0,
             "pages_with_images": 0,
-            "average_images_per_page": 0.0
+            "average_images_per_page": 0.0,
+            "valid_extracted_bboxes": 0
         },
         "image_quality": {
             "reference_image_count": 62,
+            "valid_reference_bboxes": 62,
             "extracted_image_count": 0,
-            "missing_images": 62,
-            "extra_images": 0,
-            "image_coverage_percent": 0.0,
-            "structural_image_match": "N/A/Unsupported"
+            "matched_images": "N/A/Unsupported",
+            "missing_images": "N/A/Unsupported",
+            "extra_images": "N/A/Unsupported",
+            "image_precision": "N/A/Unsupported",
+            "image_recall": "N/A/Unsupported",
+            "image_f1_score": "N/A/Unsupported",
+            "mean_iou": "N/A/Unsupported",
+            "image_match_rate_percent": "N/A/Unsupported",
+            "structural_image_match": "N/A/Unsupported",
+            "iou_threshold": 0.5
         },
         "layout_statistics": {
             "layout_block_count": 6517,
@@ -189,15 +205,23 @@
             "extracted_image_count": 0,
             "figure_count": 0,
             "pages_with_images": 0,
-            "average_images_per_page": 0.0
+            "average_images_per_page": 0.0,
+            "valid_extracted_bboxes": 0
         },
         "image_quality": {
             "reference_image_count": 62,
+            "valid_reference_bboxes": 62,
             "extracted_image_count": 0,
-            "missing_images": 62,
-            "extra_images": 0,
-            "image_coverage_percent": 0.0,
-            "structural_image_match": "N/A/Unsupported"
+            "matched_images": "N/A/Unsupported",
+            "missing_images": "N/A/Unsupported",
+            "extra_images": "N/A/Unsupported",
+            "image_precision": "N/A/Unsupported",
+            "image_recall": "N/A/Unsupported",
+            "image_f1_score": "N/A/Unsupported",
+            "mean_iou": "N/A/Unsupported",
+            "image_match_rate_percent": "N/A/Unsupported",
+            "structural_image_match": "N/A/Unsupported",
+            "iou_threshold": 0.5
         },
         "layout_statistics": {
             "layout_block_count": 580,
