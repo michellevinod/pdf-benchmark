@@ -1,0 +1,46 @@
+{
+  "parser": "paddleocr_v6_tiny",
+  "type": "ocr_baseline",
+  "model": {
+    "ocr_version": "PP-OCRv6",
+    "detection_model": "PP-OCRv6_tiny_det",
+    "recognition_model": "PP-OCRv6_tiny_rec",
+    "render_scale": 1.5
+  },
+  "text_statistics": {
+    "page_count": 62,
+    "pages_with_text": 62,
+    "empty_pages": 0,
+    "character_count": 110227,
+    "word_count": 17998,
+    "line_count": 5647,
+    "average_words_per_page": 290.29
+  },
+  "text_quality": {
+    "exact_match": false,
+    "character_error_rate": 0.3339,
+    "word_error_rate": 0.4453,
+    "normalized_edit_similarity": 0.6661,
+    "text_coverage_percent": 92.49
+  },
+  "ocr_statistics": {
+    "successful_pages": 62,
+    "failed_pages": 0,
+    "detected_text_regions": 5671,
+    "pages_with_text_regions": 62,
+    "average_ocr_confidence": 0.9526,
+    "minimum_ocr_confidence": 0.0,
+    "maximum_ocr_confidence": 1.0
+  },
+  "performance": {
+    "execution_time_seconds": 98.0393,
+    "average_page_time_seconds": 1.5813,
+    "throughput_pages_per_second": 0.6324,
+    "wall_time_seconds": 108.2266
+  },
+  "unsupported_metrics": {
+    "table_teds": "N/A - OCR baseline",
+    "image_metrics": "N/A - OCR baseline",
+    "document_layout_metrics": "N/A - OCR baseline"
+  }
+}
