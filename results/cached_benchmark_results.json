@@ -201,9 +201,9 @@
         "table_statistics": {
             "extracted_table_count": 33,
             "pages_with_tables": 28,
-            "total_cells": "N/A/Unsupported",
+            "total_cells": 3148,
             "average_tables_per_page": 0.53,
-            "empty_tables": 0
+            "empty_tables": 3
         },
         "table_quality": {
             "reference_table_count": 48,
@@ -215,7 +215,7 @@
             "table_recall": 0.6875,
             "table_f1_score": 0.8148,
             "table_coverage_percent": 68.75,
-            "teds_score": "N/A/Unsupported"
+            "teds_score": 15.64
         },
         "image_statistics": {
             "extracted_image_count": 0,
