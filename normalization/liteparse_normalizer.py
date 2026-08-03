@@ -1,6 +1,7 @@
 import re
 
 from normalization.base_normalizer import BaseNormalizer
+from normalization.pymupdf4llm_normalizer import PyMuPDF4LLMNormalizer
 
 
 class LiteParseNormalizer(BaseNormalizer):
@@ -234,6 +235,56 @@ class LiteParseNormalizer(BaseNormalizer):
                 )
             )
 
+            markdown = raw_page.get(
+                "markdown",
+                "",
+            )
+
+            structural_tables = (
+                PyMuPDF4LLMNormalizer._extract_markdown_tables(
+                    markdown
+                )
+            )
+
+            tables = []
+
+            for table_index, structure in enumerate(
+                structural_tables
+            ):
+                tables.append(
+                    {
+                        "type": "table",
+                        "class": "table",
+                        "page_number": page_number,
+                        "index": table_index,
+                        "bbox": None,
+                        "text": "",
+                        "markdown": structure[
+                            "markdown"
+                        ],
+                        "rows": structure[
+                            "rows"
+                        ],
+                        "cells": structure[
+                            "cells"
+                        ],
+                        "row_count": structure[
+                            "row_count"
+                        ],
+                        "column_count": structure[
+                            "column_count"
+                        ],
+                        "cell_count": structure[
+                            "cell_count"
+                        ],
+                        "html": structure[
+                            "html"
+                        ],
+                        "has_structure": True,
+                        "structure_only": True,
+                    }
+                )
+
             page = {
                 "page_number": page_number,
                 "text": raw_page.get(
@@ -244,7 +295,7 @@ class LiteParseNormalizer(BaseNormalizer):
                     "markdown",
                     "",
                 ),
-                "tables": [],
+                "tables": tables,
                 "images": [],
                 "figures": [],
                 "layout_blocks": layout_blocks,
@@ -291,10 +342,26 @@ class LiteParseNormalizer(BaseNormalizer):
                 },
             }
 
-            normalized[
-                "pages"
-            ].append(
+            normalized["pages"].append(
                 page
             )
+
+        normalized["statistics"]["table_count"] = sum(
+            len(page.get("tables", []))
+            for page in normalized["pages"]
+        )
+
+        normalized["statistics"]["structured_table_count"] = sum(
+            1
+            for page in normalized["pages"]
+            for table in page.get("tables", [])
+            if table.get("has_structure")
+        )
+
+        normalized["statistics"]["table_cell_count"] = sum(
+            len(table.get("cells", []))
+            for page in normalized["pages"]
+            for table in page.get("tables", [])
+        )
 
         return normalized

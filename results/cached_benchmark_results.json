@@ -28,14 +28,16 @@
         "table_quality": {
             "reference_table_count": 48,
             "extracted_table_count": 42,
-            "detected_tables": 42,
-            "missing_tables": 6,
-            "extra_tables": 0,
-            "table_precision": 1.0,
-            "table_recall": 0.875,
-            "table_f1_score": 0.9333,
-            "table_coverage_percent": 87.5,
-            "teds_score": 16.02
+            "detected_tables": 27,
+            "missing_tables": 21,
+            "extra_tables": 15,
+            "table_precision": 0.6429,
+            "table_recall": 0.5625,
+            "table_f1_score": 0.6,
+            "table_coverage_percent": 56.25,
+            "teds_score": 16.02,
+            "spatial_detection_supported": true,
+            "table_iou_threshold": 0.5
         },
         "image_statistics": {
             "extracted_image_count": 62,
@@ -109,23 +111,25 @@
             "text_coverage_percent": 100.0
         },
         "table_statistics": {
-            "extracted_table_count": 0,
-            "pages_with_tables": 0,
-            "total_cells": 0,
-            "average_tables_per_page": 0.0,
+            "extracted_table_count": 59,
+            "pages_with_tables": 29,
+            "total_cells": 2577,
+            "average_tables_per_page": 0.95,
             "empty_tables": 0
         },
         "table_quality": {
             "reference_table_count": 48,
-            "extracted_table_count": 0,
-            "detected_tables": 0,
-            "missing_tables": 48,
-            "extra_tables": 0,
-            "table_precision": 0.0,
-            "table_recall": 0.0,
-            "table_f1_score": 0.0,
-            "table_coverage_percent": 0.0,
-            "teds_score": "N/A/Unsupported"
+            "extracted_table_count": 59,
+            "detected_tables": "N/A/Unsupported",
+            "missing_tables": "N/A/Unsupported",
+            "extra_tables": "N/A/Unsupported",
+            "table_precision": "N/A/Unsupported",
+            "table_recall": "N/A/Unsupported",
+            "table_f1_score": "N/A/Unsupported",
+            "table_coverage_percent": "N/A/Unsupported",
+            "teds_score": 12.83,
+            "spatial_detection_supported": false,
+            "table_iou_threshold": "N/A/Unsupported"
         },
         "image_statistics": {
             "extracted_image_count": 0,
@@ -208,14 +212,16 @@
         "table_quality": {
             "reference_table_count": 48,
             "extracted_table_count": 33,
-            "detected_tables": 33,
-            "missing_tables": 15,
-            "extra_tables": 0,
-            "table_precision": 1.0,
-            "table_recall": 0.6875,
-            "table_f1_score": 0.8148,
-            "table_coverage_percent": 68.75,
-            "teds_score": 15.64
+            "detected_tables": 18,
+            "missing_tables": 30,
+            "extra_tables": 15,
+            "table_precision": 0.5455,
+            "table_recall": 0.375,
+            "table_f1_score": 0.4444,
+            "table_coverage_percent": 37.5,
+            "teds_score": 15.64,
+            "spatial_detection_supported": true,
+            "table_iou_threshold": 0.5
         },
         "image_statistics": {
             "extracted_image_count": 0,
