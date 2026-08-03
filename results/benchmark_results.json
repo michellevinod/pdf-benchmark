@@ -1,7 +1,7 @@
 [
     {
         "parser": "docling",
-        "benchmark_timestamp": "2026-07-30T17:33:39.956459+05:30",
+        "benchmark_timestamp": "2026-08-02T16:29:22.824518+05:30",
         "parser_name": "DoclingParser",
         "parser_version": "Unknown",
         "status": "Success",
@@ -9,14 +9,14 @@
         "traceback": null,
         "pdf_name": "PDF_Benchmarking_Tester.pdf",
         "page_count": 62,
-        "execution_time_seconds": 336.892,
-        "processing_time_per_page_seconds": 5.434,
-        "throughput_pages_per_second": 0.184,
-        "memory_before_mb": 541.78,
-        "memory_after_mb": 1074.25,
-        "memory_used_mb": 532.47,
-        "peak_memory_mb": 2480.94,
-        "average_cpu_percent": 613.55,
+        "execution_time_seconds": 393.291,
+        "processing_time_per_page_seconds": 6.343,
+        "throughput_pages_per_second": 0.158,
+        "memory_before_mb": 540.67,
+        "memory_after_mb": 782.38,
+        "memory_used_mb": 241.71,
+        "peak_memory_mb": 2356.4,
+        "average_cpu_percent": 515.58,
         "output_size_kb": 7401.85,
         "python_version": "3.12.10",
         "operating_system": "Windows-11-10.0.26200-SP0",
@@ -29,16 +29,16 @@
             "page_count": 62,
             "pages_with_text": 62,
             "empty_pages": 0,
-            "character_count": 84412,
-            "word_count": 13945,
-            "line_count": 2613,
-            "average_words_per_page": 224.92
+            "character_count": 87161,
+            "word_count": 14364,
+            "line_count": 2634,
+            "average_words_per_page": 231.68
         },
         "text_quality": {
             "exact_match": false,
-            "character_error_rate": 0.4362,
-            "word_error_rate": 0.4274,
-            "text_coverage_percent": 70.94
+            "character_error_rate": 0.4532,
+            "word_error_rate": 0.4507,
+            "text_coverage_percent": 73.25
         },
         "table_statistics": {
             "table_count": 42,
@@ -53,7 +53,7 @@
         },
         "image_statistics": {
             "image_count": 62,
-            "figure_count": 0,
+            "figure_count": 62,
             "pages_with_images": 46,
             "average_images_per_page": 1.0
         },
@@ -63,26 +63,26 @@
             "extra_images": 0
         },
         "layout_statistics": {
-            "layout_block_count": 0,
-            "pages_with_layout": 0,
+            "layout_block_count": 2738,
+            "pages_with_layout": 62,
             "ocr_pages": 0,
-            "average_layout_blocks_per_page": 0.0
+            "average_layout_blocks_per_page": 44.16
         },
         "layout_quality": {
-            "layout_coverage_percent": 0.0,
-            "missing_layout_blocks": 1649,
-            "extra_layout_blocks": 0
+            "layout_coverage_percent": 100.0,
+            "missing_layout_blocks": 0,
+            "extra_layout_blocks": 1089
         },
         "document_has_metadata": true,
         "document_has_statistics": true,
         "document_has_pages": true,
         "pages_with_text": 62,
         "pages_without_text": 0,
-        "pages_with_metadata": 0
+        "pages_with_metadata": 62
     },
     {
         "parser": "liteparse",
-        "benchmark_timestamp": "2026-07-30T17:39:18.082664+05:30",
+        "benchmark_timestamp": "2026-08-02T16:35:57.058389+05:30",
         "parser_name": "LiteParseParser",
         "parser_version": "Unknown",
         "status": "Success",
@@ -90,14 +90,14 @@
         "traceback": null,
         "pdf_name": "PDF_Benchmarking_Tester.pdf",
         "page_count": 62,
-        "execution_time_seconds": 52.238,
-        "processing_time_per_page_seconds": 0.843,
-        "throughput_pages_per_second": 1.187,
-        "memory_before_mb": 1034.18,
-        "memory_after_mb": 1109.48,
-        "memory_used_mb": 75.3,
-        "peak_memory_mb": 1530.11,
-        "average_cpu_percent": 930.2,
+        "execution_time_seconds": 52.893,
+        "processing_time_per_page_seconds": 0.853,
+        "throughput_pages_per_second": 1.172,
+        "memory_before_mb": 744.86,
+        "memory_after_mb": 771.41,
+        "memory_used_mb": 26.56,
+        "peak_memory_mb": 1254.46,
+        "average_cpu_percent": 973.25,
         "output_size_kb": 3222.4,
         "python_version": "3.12.10",
         "operating_system": "Windows-11-10.0.26200-SP0",
@@ -163,7 +163,7 @@
     },
     {
         "parser": "pymupdf4llm",
-        "benchmark_timestamp": "2026-07-30T17:40:12.565711+05:30",
+        "benchmark_timestamp": "2026-08-02T16:36:51.583145+05:30",
         "parser_name": "PyMuPDF4LLMParser",
         "parser_version": "Unknown",
         "status": "Success",
@@ -171,15 +171,15 @@
         "traceback": null,
         "pdf_name": "PDF_Benchmarking_Tester.pdf",
         "page_count": 62,
-        "execution_time_seconds": 66.582,
-        "processing_time_per_page_seconds": 1.074,
-        "throughput_pages_per_second": 0.931,
-        "memory_before_mb": 1046.76,
-        "memory_after_mb": 1000.92,
-        "memory_used_mb": -45.84,
-        "peak_memory_mb": 1192.25,
-        "average_cpu_percent": 1126.12,
-        "output_size_kb": 287.46,
+        "execution_time_seconds": 62.91,
+        "processing_time_per_page_seconds": 1.015,
+        "throughput_pages_per_second": 0.986,
+        "memory_before_mb": 769.26,
+        "memory_after_mb": 843.02,
+        "memory_used_mb": 73.76,
+        "peak_memory_mb": 975.61,
+        "average_cpu_percent": 998.33,
+        "output_size_kb": 617.26,
         "python_version": "3.12.10",
         "operating_system": "Windows-11-10.0.26200-SP0",
         "machine_name": "DESKTOP-A17CC48",
@@ -188,18 +188,18 @@
         "logical_cpu_cores": 12,
         "total_ram_gb": 15.69,
         "text_statistics": {
-            "page_count": 1,
-            "pages_with_text": 1,
+            "page_count": 62,
+            "pages_with_text": 62,
             "empty_pages": 0,
-            "character_count": 132766,
+            "character_count": 132576,
             "word_count": 14343,
-            "line_count": 1929,
-            "average_words_per_page": 14343.0
+            "line_count": 1860,
+            "average_words_per_page": 231.34
         },
         "text_quality": {
             "exact_match": false,
-            "character_error_rate": 0.3457,
-            "word_error_rate": 0.3608,
+            "character_error_rate": 0.3449,
+            "word_error_rate": 0.3588,
             "text_coverage_percent": 100.0
         },
         "table_statistics": {
@@ -235,11 +235,11 @@
             "missing_layout_blocks": 1649,
             "extra_layout_blocks": 0
         },
-        "document_has_metadata": false,
+        "document_has_metadata": true,
         "document_has_statistics": true,
         "document_has_pages": true,
-        "pages_with_text": 1,
+        "pages_with_text": 62,
         "pages_without_text": 0,
-        "pages_with_metadata": 0
+        "pages_with_metadata": 62
     }
 ]

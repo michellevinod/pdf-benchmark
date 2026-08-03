@@ -1,11 +1,11 @@
 import json
 from pathlib import Path
 
+from benchmark.ground_truth_loader import GroundTruthLoader
 from benchmark.image_metrics import ImageMetrics
 from benchmark.layout_metrics import LayoutMetrics
 from benchmark.llm_judge import LLMJudge
 from benchmark.profiler import Profiler
-from benchmark.reference_extractor import ReferenceExtractor
 from benchmark.report_generator import ReportGenerator
 from benchmark.robustness_metrics import RobustnessMetrics
 from benchmark.table_metrics import TableMetrics
@@ -40,27 +40,16 @@ class BenchmarkRunner:
 
         benchmark_results = []
 
-        reference_pages = ReferenceExtractor.extract_text(
-            self.pdf_path,
-        )
+        ground_truth_path = Path("benchmark_dataset/ground_truth.json")
+        ground_truth_document = GroundTruthLoader.load(ground_truth_path)
 
-        reference_table_count = (
-            ReferenceExtractor.extract_table_count(
-                self.pdf_path,
-            )
-        )
-
-        reference_image_count = (
-            ReferenceExtractor.extract_image_count(
-                self.pdf_path,
-            )
-        )
-
-        reference_layout_count = (
-            ReferenceExtractor.extract_layout_count(
-                self.pdf_path,
-            )
-        )
+        reference_pages = GroundTruthLoader.get_page_texts(ground_truth_document)
+        reference_tables = GroundTruthLoader.get_reference_tables(ground_truth_document)
+        reference_images = GroundTruthLoader.get_reference_images(ground_truth_document)
+        reference_layout_blocks = GroundTruthLoader.get_reference_layout_blocks(ground_truth_document)
+        reference_table_count = GroundTruthLoader.get_table_count(ground_truth_document)
+        reference_image_count = GroundTruthLoader.get_image_count(ground_truth_document)
+        reference_layout_count = GroundTruthLoader.get_layout_count(ground_truth_document)
 
         for parser_name in self.parsers:
 
@@ -128,6 +117,7 @@ class BenchmarkRunner:
                 result.update(
                     TableMetrics.evaluate(
                         normalized_document,
+                        reference_tables,
                         reference_table_count,
                     )
                 )
@@ -135,6 +125,7 @@ class BenchmarkRunner:
                 result.update(
                     ImageMetrics.evaluate(
                         normalized_document,
+                        reference_images,
                         reference_image_count,
                     )
                 )
@@ -142,6 +133,7 @@ class BenchmarkRunner:
                 result.update(
                     LayoutMetrics.evaluate(
                         normalized_document,
+                        reference_layout_blocks,
                         reference_layout_count,
                     )
                 )

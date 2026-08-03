@@ -80,6 +80,11 @@ class TextMetrics:
             extracted_text,
         )
 
+        normalized_edit_similarity = max(
+            0.0,
+            1.0 - float(character_error_rate),
+        )
+
         reference_characters = len(
             reference_text
         )
@@ -98,6 +103,8 @@ class TextMetrics:
             if reference_characters
             else 0
         )
+
+        text_coverage = min(100.0, max(0.0, text_coverage))
 
         return {
             "text_statistics": {
@@ -120,6 +127,10 @@ class TextMetrics:
                 ),
                 "word_error_rate": round(
                     word_error_rate,
+                    4,
+                ),
+                "normalized_edit_similarity": round(
+                    normalized_edit_similarity,
                     4,
                 ),
                 "text_coverage_percent": round(

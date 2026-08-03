@@ -85,9 +85,11 @@ class ReportGenerator:
             for result in results
         ]
 
-        fieldnames = list(
-            flattened_results[0].keys()
-        )
+        fieldnames = []
+        for item in flattened_results:
+            for key in item.keys():
+                if key not in fieldnames:
+                    fieldnames.append(key)
 
         with output_path.open(
             "w",
@@ -101,6 +103,8 @@ class ReportGenerator:
             )
 
             writer.writeheader()
-            writer.writerows(
-                flattened_results
-            )
+            for record in flattened_results:
+                writer.writerow({
+                    key: record.get(key, "")
+                    for key in fieldnames
+                })

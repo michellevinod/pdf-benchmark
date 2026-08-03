@@ -1,0 +1,84 @@
+import json
+from pathlib import Path
+
+
+class GroundTruthLoader:
+    """
+    Loads the frozen benchmark ground truth JSON and validates it before use.
+    """
+
+    EXPECTED_PAGE_COUNT = 62
+
+    @staticmethod
+    def load(path: str | Path) -> dict:
+        target = Path(path)
+
+        if not target.exists():
+            raise FileNotFoundError(
+                f"Ground truth file not found: {target}"
+            )
+
+        with target.open("r", encoding="utf-8") as file:
+            document = json.load(file)
+
+        if not isinstance(document, dict):
+            raise ValueError("Ground truth JSON root must be an object.")
+
+        pages = document.get("pages", [])
+        if not isinstance(pages, list):
+            raise ValueError("Ground truth pages must be a list.")
+
+        if len(pages) != GroundTruthLoader.EXPECTED_PAGE_COUNT:
+            raise ValueError(
+                f"Ground truth must contain {GroundTruthLoader.EXPECTED_PAGE_COUNT} pages, found {len(pages)}."
+            )
+
+        page_numbers = [page.get("page_number") for page in pages]
+        if page_numbers != list(range(1, GroundTruthLoader.EXPECTED_PAGE_COUNT + 1)):
+            raise ValueError(
+                "Ground truth page numbers must be exactly 1 through 62."
+            )
+
+        if not document.get("statistics"):
+            raise ValueError("Ground truth statistics are missing.")
+
+        return document
+
+    @staticmethod
+    def get_page_texts(document: dict) -> list[str]:
+        return [page.get("text", "") for page in document.get("pages", [])]
+
+    @staticmethod
+    def get_table_count(document: dict) -> int:
+        stats = document.get("statistics", {})
+        if "table_count" in stats:
+            return int(stats["table_count"])
+        return sum(len(page.get("tables", [])) for page in document.get("pages", []))
+
+    @staticmethod
+    def get_image_count(document: dict) -> int:
+        stats = document.get("statistics", {})
+        if "image_occurrence_count" in stats:
+            return int(stats["image_occurrence_count"])
+        if "image_count" in stats:
+            return int(stats["image_count"])
+        return sum(len(page.get("images", [])) for page in document.get("pages", []))
+
+    @staticmethod
+    def get_layout_count(document: dict) -> int:
+        stats = document.get("statistics", {})
+        if "layout_block_count" in stats:
+            return int(stats["layout_block_count"])
+        return sum(len(page.get("layout_blocks", [])) for page in document.get("pages", []))
+
+    @staticmethod
+    def get_reference_tables(document: dict) -> list[list[dict]]:
+        return [page.get("tables", []) for page in document.get("pages", [])]
+
+    @staticmethod
+    def get_reference_images(document: dict) -> list[list[dict]]:
+        return [page.get("images", []) for page in document.get("pages", [])]
+
+    @staticmethod
+    def get_reference_layout_blocks(document: dict) -> list[list[dict]]:
+        return [page.get("layout_blocks", []) for page in document.get("pages", [])]

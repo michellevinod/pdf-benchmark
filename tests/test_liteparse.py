@@ -1,24 +1,22 @@
+import json
 from pathlib import Path
 
-from liteparse import LiteParse
+from normalization.liteparse_normalizer import LiteParseNormalizer
 
-pdf_path = "benchmark_dataset/PDF_Benchmarking_Tester.pdf"
 
-parser = LiteParse(
-    output_format="markdown",
-    quiet=True
-)
+def test_liteparse_normalizer_preserves_layout_blocks_and_ocr():
+    raw = json.loads(
+        Path("outputs/liteparse/output.json").read_text(encoding="utf-8")
+    )
 
-result = parser.parse(pdf_path)
+    normalized = LiteParseNormalizer().normalize(raw)
 
-print(result.text[:1000])
-
-output_path = Path("outputs/liteparse/output.md")
-output_path.parent.mkdir(parents=True, exist_ok=True)
-
-output_path.write_text(
-    result.text,
-    encoding="utf-8"
-)
-
-print(f"\nSaved to {output_path}")
+    first_page = normalized["pages"][0]
+    assert first_page["layout_blocks"], "LiteParse should keep geometry-derived layout blocks"
+    assert any(block.get("is_ocr") for block in first_page["layout_blocks"]), (
+        "LiteParse should keep OCR-aware blocks when OCR font metadata is present"
+    )
+    assert first_page["ocr_text"].strip() or any(
+        page.get("ocr_text", "").strip() for page in normalized["pages"]
+    )
+    assert normalized["statistics"]["page_count"] >= 1

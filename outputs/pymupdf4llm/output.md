@@ -53,6 +53,8 @@ _Printed:  06:43  29-Jun-21_
 
 _RIMBase 7.5.582.0_ 
 
+
+
 |**Daily Drilling Report**<br>**Well ID:**<br>**Geothermal Resource Gr**<br>**Forge 78B-32**<br>**Well Na**<br>Field: UTAHFORGE<br>Sect: 32  Town: 26  Rng: 9W  County: Beav|**oup, Inc.**<br>**me: 78B-32**<br>er  State: UT|
 |---|---|
 |2<br>**Report No:**<br>**Report Fo**<br>**Casing/Tubular Information**<br><br> <br> <br> <br> <br><br> <br><br>|**r 28-Jun-21**<br>|
@@ -109,6 +111,8 @@ _Printed:  06:43  29-Jun-21_
 
 _RIMBase 7.5.582.0_ 
 
+
+
 ||**Daily Drilling Report**<br>**Well ID:**<br>**Forge 78B-32**<br>Field: UTAHFORGE|Sect: 3|**Geothermal Resource Group, Inc.**<br>**Well Name: 78B-32**<br>2  Town: 26  Rng: 9W  County: Beaver  State: UT|
 |---|---|---|---|
 |2<br>**Report No:**|||**Report For 28-Jun-21**|
@@ -124,6 +128,8 @@ _Page: 3 of 3_
 _Printed:  06:43  29-Jun-21_ 
 
 _RIMBase 7.5.582.0_ 
+
+
 
 ||**Daily Drilling Re**<br>**Well ID:**<br>**Forge 78B-3**<br>Field: UTAHFORGE|**port**<br>**2**|**Geothermal Resource Group, Inc.**<br>**Well Name: 78B-32**<br>Sect: 32  Town: 26  Rng: 9W  County: Beaver  State: UT|
 |---|---|---|---|
@@ -177,6 +183,8 @@ _Printed:  06:24  01-Jul-21_
 
 _RIMBase 7.5.582.0_ 
 
+
+
 |**Daily Drillin**<br>**Well ID:**<br>**Forge 7**<br>Field: UTAHFOR|**g Repo**<br>**8B-32**<br>GE|**rt**<br>**Geothermal Resource Group, Inc.**<br>**Well Name: 78B-32**<br>Sect: 32  Town: 26  Rng: 9W  County: Beaver  State: UT|
 |---|---|---|
 |4<br>**Report No:**||**Report For 30-Jun-21**<br>**Mud Information**|
@@ -229,6 +237,8 @@ _Page: 2 of 3_
 _Printed:  06:24  01-Jul-21_ 
 
 _RIMBase 7.5.582.0_ 
+
+
 
 ||**Daily Drilli**<br>**Well ID:**<br>**Forge**<br>Field: UTAHFO|**ng Rep**<br>**78B-32**<br>RGE|**ort**||Sect: 3|**Geoth**<br>2  Town:|**ermal**<br>26  Rng:|**Resource**<br>**Wel**<br>9W  County: B|**Group, Inc.**<br>**l Name: 78B-32**<br>eaver  State: UT|
 |---|---|---|---|---|---|---|---|---|---|
@@ -291,6 +301,8 @@ _Printed:  06:24  01-Jul-21_
 
 _RIMBase 7.5.582.0_ 
 
+
+
 |**Daily Drilling Report**<br>**Well ID:**<br>**Geoth**<br>**Forge 78B-32**<br>Field: UTAHFORGE<br>Sect: 32  Town: 2|**ermal Resource Group, Inc.**<br>**Well Name: 78B-32**<br>6  Rng: 9W  County: Beaver  State: UT|
 |---|---|
 |5<br>**Report No:**|**Report For 01-Jul-21**|
@@ -314,6 +326,8 @@ _Page: 3 of 3_
 _Printed:  06:43  02-Jul-21_ 
 
 _RIMBase 7.5.582.0_ 
+
+
 
 ||**Daily Drilling Report**<br>**Well ID:**<br>**Forge 78B-32**<br>Field: UTAHFORGE|**Geothermal Resource Gro**<br>**Well Nam**<br>Sect: 32  Town: 26  Rng: 9W  County: Beaver|**up, Inc.**<br>**e: 78B-32**<br>State: UT|
 |---|---|---|---|
@@ -357,6 +371,8 @@ _Printed:  06:18  16-Jul-21_
 
 _RIMBase 7.5.582.0_ 
 
+
+
 ||<br> <br>F|**Daily Dri**<br>**Well ID:**<br>**Fo**<br>ield: UTAH|**lling Re**<br>**rge 78B-32**<br>FORGE|**port**<br>|**Geothermal Resource Group, Inc.**<br>**Well Name: 78B-32**<br>Sect: 32  Town: 26  Rng: 9W  County: Beaver  State: UT|
 |---|---|---|---|---|---|
 |**Report N**|28<br>**o:**||||**Report For 24-Jul-21**|
@@ -385,6 +401,8 @@ _RIMBase 7.5.582.0 Page: 2 of 3_
 
 _Printed:  07:53  25-Jul-21_ 
 
+
+
 Government of **Western Australia** Department of **Mines and Petroleum** 
 
 
@@ -411,6 +429,8 @@ Government of **Western Australia** Department of **Mines and Petroleum**
 
 
 
+
+
 ###### **Record 2014/12** 
 
 ## **GSWA HARVEY 1 WELL COMPLETION AND PRELIMINARY INTERPRETATION REPORT, SOUTHERN PERTH BASIN** 
@@ -420,6 +440,8 @@ Government of **Western Australia** Department of **Mines and Petroleum**
 *** Aztech Well Construction Pty Ltd, Colin Street, West Perth WA 6005** 
 
 **Perth 2014** 
+
+
 
 
 
@@ -473,6 +495,8 @@ Government of **Western Australia** Department of **Mines and Petroleum**
 
 iii 
 
+
+
 _GSWA Record 2014/12_ 
 
 _GSWA Harvey 1 well completion and preliminary interpretation report, southern Perth Basin_ 
@@ -506,6 +530,8 @@ Harvey 1 encountered the expected stratigraphic sequence for the Harvey Ridge ar
 * Aztech Well Construction Pty Ltd, Colin Street, West Perth WA 6005 
 
 1 
+
+
 
 _Millar and Reeve_ 
 
@@ -565,6 +591,8 @@ The main objectives of the well were to acquire data and material to further ass
 
 2 
 
+
+
 _GSWA Record 2014/12_ 
 
 _GSWA Harvey 1 well completion and preliminary interpretation report, southern Perth Basin_ 
@@ -602,6 +630,8 @@ Harvey 1 was drilled within the southern Perth Basin on the structural feature k
 
 3 
 
+
+
 _Millar and Reeve_ 
 
 
@@ -632,6 +662,8 @@ _Millar and Reeve_
 
 4 
 
+
+
 _Millar and Reeve_ 
 
 
@@ -643,6 +675,8 @@ _Millar and Reeve_
 
 6 
 
+
+
 _GSWA Record 2014/12 GSWA Harvey 1 well completion and preliminary interpretation report, southern Perth Basin_ 
 
 ###### 
@@ -653,6 +687,8 @@ _GSWA Record 2014/12 GSWA Harvey 1 well completion and preliminary interpretatio
 
 
 7 
+
+
 
 _Millar and Reeve_ 
 
@@ -671,6 +707,8 @@ _Millar and Reeve_
 
 
 8 
+
+
 
 _GSWA Record 2014/12_ 
 
@@ -740,6 +778,8 @@ Halliburton completed all coring operations. Once the core was pulled to the sur
 
 9 
 
+
+
 _Millar and Reeve_ 
 
 
@@ -750,6 +790,8 @@ _Millar and Reeve_
 **Figure 6.  Harvey 1 drilling time curves: predicted versus actual** 
 
 10 
+
+
 
 _GSWA Record 2014/12_ 
 
@@ -802,6 +844,8 @@ _GSWA Harvey 1 well completion and preliminary interpretation report, southern P
 
 
 13 
+
+
 
 _Millar and Reeve_ 
 
@@ -858,6 +902,8 @@ _Millar and Reeve_
 
 14 
 
+
+
 _GSWA Record 2014/12_ 
 
 _GSWA Harvey 1 well completion and preliminary interpretation report, southern Perth Basin_ 
@@ -910,6 +956,8 @@ The shallowest sample analysed was from the Leederville Formation (GA 2132430), 
 
 15 
 
+
+
 _GSWA Record 2014/12_ 
 
 _GSWA Harvey 1 well completion and preliminary interpretation report, southern Perth Basin_ 
@@ -935,6 +983,8 @@ _GSWA Harvey 1 well completion and preliminary interpretation report, southern P
 - Zhan, Y 2014, 2D seismic interpretation of the Harvey area, Southern Perth Basin, Western Australia: Geological Survey of Western Australia, Record 2014/7, 25p. 
 
 17 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -977,6 +1027,8 @@ File Ref: Sajaa 1 EOWR 1st Campaign.doc
 
 Page 2 of 39 
 
+
+
 Sajaa 1 - End Of Well Report 
 
 
@@ -987,6 +1039,8 @@ Sajaa 1 - End Of Well Report
 
 <!-- Start of picture text -->
 5”, 15#/ft TUBING<br>SM9055 VAM<br>4.125” ID Otis 5” R Nipple @ 90 ft MD<br>7”, 35#/ft TUBING<br>L80 VAM<br>4.125” ID Otis 5” R Nipple @ 10,227 ft MD<br>3.913” ID Otis 5” RN Nipple @ 10,342 ft MD<br>5” MULE SHOE  @ 10,357 ft MD<br>Top of Perforations @ 10,477 ft MD<br>Window Top @ 10,5 26 ft MD  Leg A KOP<br>@ 10,795 ft MD  Leg A – ST1 KOP<br>@ 12,900 ft MD<br>Whipstock Pinch Point:<br>10,526 ft MD (@ 3.7  deg inc)  Leg B KOP   Leg A @<br>150 °  Left of highside   @ 10,615 ft MD  13,330 ft MD  S80-S40<br>10,581 ft TVD<br>Window Bottom @ 10, 535.5 f t MD<br>Leg A – ST1 @<br>13,378 ft MD<br>Leg B @<br>14,500 ft MD  K70<br>10,906 ft TVD<br>9 5/8”, 47#/ft CASING N80<br>BTC at window.<br>(Also 53.5# L80)<br>Leg C @<br>12,358 ft MD  L35-L33<br>Leg D KOP   11,742 ft TVD<br>3.75” Open Hole  @ 11,840 ft MD<br>Size For All<br>Top Of Fish @ 11,796 ft MD<br>(Bottom half of isolation  Laterals<br>packer)<br>7” TOL @ 12,272 ft MD<br>Leg D @<br>Bottom of Perforations @ 12,338 ft MD  14,500 ft MD  H90-H80<br>12,219 ft TVD<br>  9 5/8” CASING SHOE  @ 12,464 ft MD<br>EZSV Plug  @ 12,719 ft MD<br>  7” LINER SHOE  @ 16,654 ft MD<br>File Ref: Sajaa 1 EOWR 1st Campaign.doc  Page 4 of 39<br><!-- End of picture text -->
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1005,6 +1059,8 @@ A large acid job consisting of 400 gallons of 15% acid per foot of (128,000 gall
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 5 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1031,6 +1087,8 @@ During the fishing operations, shortcomings of the snubbing unit became evident.
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 7 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1067,6 +1125,8 @@ BHA #12, a kick off assembly comprising 3.75" M09 bit, 2 7/8" M1 ADM motor with 
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 13 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1116,6 +1176,8 @@ File Ref: Sajaa 1 EOWR 1st Campaign.doc
 
 Page 20 of 39 
 
+
+
 Sajaa 1 - End Of Well Report 
 
 
@@ -1130,6 +1192,8 @@ Sajaa 1 - End Of Well Report
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 22 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1182,6 +1246,8 @@ File Ref: Sajaa 1 EOWR 1st Campaign.doc
 
 Page 24 of 39 
 
+
+
 Sajaa 1 - End Of Well Report 
 
 
@@ -1194,6 +1260,8 @@ Date  Time  Problem  Daily Cost NPT cost<br>18-Feb  0.35Problem with crane compu
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 25 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1216,6 +1284,8 @@ Sajaa 1 - End Of Well Report
 File Ref: Sajaa 1 EOWR 1st Campaign.doc 
 
 Page 27 of 39 
+
+
 
 Sajaa 1 - End Of Well Report 
 
@@ -1258,6 +1328,8 @@ File Ref: Sajaa 1 EOWR 1st Campaign.doc
 
 Page 36 of 39 
 
+
+
 Sajaa 1 - End Of Well Report 
 
 
@@ -1273,6 +1345,8 @@ Page 39 of 39
 
 
 
+
+
 # **SPE Technical Report** 
 
 # **Getting to Zero and Beyond: The Path Forward** _Improving Safety in the Oil and Gas Industry_ 
@@ -1280,6 +1354,8 @@ Page 39 of 39
 ##### **March 2018** 
 
 © Copyright 2018 Society of Petroleum Engineers 
+
+
 
 ###### **Coauthors:** 
 
@@ -1302,6 +1378,8 @@ This report represents the consensus viewpoint of subject matter experts and is 
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 ii 
+
+
 
 ###### **Table of Contents** 
 
@@ -1326,6 +1404,8 @@ ii
 
 iv 
 
+
+
 ##### **2.0 Introduction** 
 
 _For me, the idea is to shun the incremental and go for the leap._ –Jack Welch, Chief Executive Officer of General Electric, 1973–2001 
@@ -1349,6 +1429,8 @@ The participants of the SPE sessions identified that achieving and sustaining ze
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 3 
+
+
 
 Workshop participants developed and endorsed “Getting to Zero” vision and mission statements **(Fig. 1)** that introduced a human-factors approach to safety and sought to be both understandable and inspiring. 
 
@@ -1380,6 +1462,8 @@ Nearly 70% of the participants agreed that achieving an expectation of zero harm
 
 6 
 
+
+
 Participants prioritized five organizational values that define culture and impact the ability of the industry to achieve an expectation of zero harm **(Fig. 2).** 
 
 Top 5 Prioritized Values for Achieving Zero 
@@ -1409,6 +1493,8 @@ Participants overwhelmingly agreed that the evolution of the industry’s HSE cu
 
 7 
 
+
+
 If the oil and gas industry is to achieve the needed step change in culture, risk management, and performance to embrace and realize an expectation of zero harm, it is worthwhile to understand more about human-factor elements **(Fig. 3).** Specifically, how they may be and are being applied across the oil and gas industry and how HROs and other industries changed, learned, and worked together to fulfill the expectation of zero harm in their operations. 
 
 
@@ -1437,6 +1523,8 @@ The NRC conducts a review for every plant-design application to verify that the 
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 9 
+
+
 
 communication, applied leadership, personal and team development, and risk awareness and mitigation. The impact in safety performance was notable, and from a pilot application, a global implementation was planned (Barakat et al. 2010). 
 
@@ -1468,6 +1556,8 @@ One of the key elements within a management system is a detailed set of specific
 
 12 
 
+
+
 ##### **5.0 Achieving a Culture of Perfection Led From the Top** 
 
 _Oil and gas companies will never be “High Reliability Organizations” if they rely on campaigns to change hearts and minds on the operational frontline. Instead, they must identify the obvious precursors to catastrophe and get serious about eliminating them – led firmly from the top._ –Andrew Hopkins, 2014 
@@ -1497,6 +1587,8 @@ HSE Culture and Risk Tolerance Survey Results<br>68%<br>78%<br>{<br>{<br>32%<br>
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 17 
+
+
 
 Although the more than 750 session participants represented a diverse cross section of the industry, the authors are not concluding that the survey unequivocally defines where the oil and gas industry is on its evolutionary journey to a generative mindset. Rather, the authors attest that the results represent insight into the industry’s desire and the direction in which the industry is moving on attributes that are essential for achieving zero as an expectation. 
 
@@ -1531,6 +1623,8 @@ Most encouraging are the organizational behaviors cited during the SPE Getting t
 
 18 
 
+
+
 such as resource planning and competencies. We will be able to regularly include human-factors assessments in such things as hazard and operability studies/hazard-identification studies and equivalent tools/ processes so we can identify shortcomings in the understanding of the engineered process. Incident investigations and root-cause analysis can include a common set of human-factors attributes that would allow companies to better understand contributing factors in events that go well beyond the often-cited and yet narrow assessment that someone did not follow process or that the event was caused by operator error. 
 
 Industry conferences and technical forums provide the opportunity to further the discussion and share broader ideas and actions started by the industry. Examples of these opportunities include 
@@ -1554,6 +1648,8 @@ Goodhart’s Law applies here: “Any observed statistical regularity will tend 
 
 24 
 
+
+
 of company, and be assured of support from the facility owner (operating company representative). Of course, the ideal state is not the real state at many oil and gas worksites. 
 
 - **a. Interdependent HSE culture** **_._** If a company has a mature interdependent HSE culture, its employees are more likely to recognize and act on hazardous conditions. The DuPont Bradley HSE culture model **(Fig. 8)** describes the journey to an HSE culture in three phases, moving from a dependent phase, through independence, to an interdependent culture. In the dependent phase, HSE is mainly driven through use of control, discipline, rules, and regulations. As the culture matures, it moves through the independent phase, in which employees begin to take personal responsibility for HSE rather than simply relying on rules and regulations to create a safe work environment. The final—interdependent—phase is characterized by a “peer’s keeper” approach that is adopted by all. In this phase, employees do not just look out for their own safety; everyone looks out for each other’s safety, and management works collaboratively with employees on HSE matters, feeling comfortable leading or allowing others to lead. People do this because they genuinely care about the safety and well-being of their colleagues. They do it because they want to, not because they have to. 
@@ -1572,6 +1668,8 @@ Zero as a<br>Vision<br>Zero as a<br>Target Zero as an<br>Expectation<br>Dependen
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 28 
+
+
 
 ##### **7.0 Appendices** 
 
@@ -1606,6 +1704,8 @@ Zero as a<br>Vision<br>Zero as a<br>Target Zero as an<br>Expectation<br>Dependen
 
 30 
 
+
+
 ###### **7.2 Participant Demographics for SPE Getting to Zero: The Road to Stavanger Sessions** 
 
 SPE Getting to Zero: The Road to Stavanger sessions conducted across the globe were attended by more than 750 participants. During the interactive sessions, participants were asked to report their organizational affiliation and their employment position. The results are illustrated by the graphs below. 
@@ -1631,6 +1731,8 @@ Employment Position of Participants
 **SPE Technical Report** • Getting to Zero and Beyond: The Path Forward 
 
 31 
+
+
 
 ###### **7.5 References** 
 
@@ -1678,15 +1780,21 @@ Barakat, E. R., Barber, J. C., and Wood, J. 2010. Achieving Sustainable Incident
 
 
 
+
+
 **SPE Technical Report** Society of Petroleum Engineers 222 Palisades Creek Dr., Richardson, TX 75080-2040 972-952-9393 www.SPE.org 
 
 2018 
+
+
 
 ### **SAJAA 9 Coil Tubing Underbalanced Drilling** 
 
 January 2006 End of Well Report 
 
 Revision: 2 Date: 23<sup>rd</sup> February 2006 Prepared by: R. Pickles J. Rennox T. Kavanagh P. Savage Prepared for: bp Sharjah Oil Company 
+
+
 
 Sajaa 9 - End Of Well Report 
 
@@ -1699,6 +1807,8 @@ Sajaa 9 - End Of Well Report
 Page 5 of 32 
 
 sajaa 9 eowr.doc 
+
+
 
 Sajaa 9 - End Of Well Report 
 
@@ -1758,6 +1868,8 @@ sajaa 9 eowr.doc
 
 Page 8 of 32 
 
+
+
 Sajaa 9 - End Of Well Report 
 
 
@@ -1805,6 +1917,8 @@ Page 15 of 32
 
 sajaa 9 eowr.doc 
 
+
+
 Sajaa 9 - End Of Well Report 
 
 
@@ -1816,6 +1930,8 @@ Sajaa 9 - End Of Well Report
 sajaa 9 eowr.doc 
 
 Page 18 of 32 
+
+
 
 Sajaa 9 - End Of Well Report 
 
@@ -1866,6 +1982,8 @@ sajaa 9 eowr.doc
 
 Page 19 of 32 
 
+
+
 Sajaa 9 - End Of Well Report 
 
 
@@ -1893,6 +2011,8 @@ sajaa 9 eowr.doc
 
 Page 22 of 32 
 
+
+
 Sajaa 9 - End Of Well Report 
 
 
@@ -1904,6 +2024,8 @@ Wellsite Engineering Blade Energy, Schlumberger, Halliburton Wellsite Supervisio
 sajaa 9 eowr.doc 
 
 Page 23 of 32 
+
+
 
 Window Top @ 11,456 ft MD Window Bottom @ 11,470 ftMD C-2 Tie Back Sajaa 9 - End Of Well Report Sleeve 5.25” ID, to ~~p @~~ 
 

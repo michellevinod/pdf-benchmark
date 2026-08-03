@@ -20,7 +20,16 @@ class PyMuPDF4LLMParser(BaseParser):
         json_path: str,
     ) -> str:
 
-        markdown = pymupdf4llm.to_markdown(pdf_path)
+        chunks = pymupdf4llm.to_markdown(
+            pdf_path,
+            page_chunks=True,
+        )
+
+        markdown = "\n\n".join(
+            chunk.get("text", "")
+            for chunk in chunks
+            if isinstance(chunk, dict)
+        )
 
         markdown_file = Path(markdown_path)
         markdown_file.parent.mkdir(
@@ -43,6 +52,20 @@ class PyMuPDF4LLMParser(BaseParser):
             "parser": "pymupdf4llm",
             "source_pdf": Path(pdf_path).name,
             "markdown": markdown,
+            "pages": [
+                {
+                    "page_number": int(
+                        chunk.get("metadata", {}).get("page_number", index + 1)
+                    ),
+                    "text": chunk.get("text", ""),
+                    "markdown": chunk.get("markdown", chunk.get("text", "")),
+                    "metadata": chunk.get("metadata", {}),
+                    "page_boxes": chunk.get("page_boxes", []),
+                    "toc_items": chunk.get("toc_items", []),
+                }
+                for index, chunk in enumerate(chunks)
+                if isinstance(chunk, dict)
+            ],
         }
 
         json_file.write_text(
@@ -54,7 +77,6 @@ class PyMuPDF4LLMParser(BaseParser):
             encoding="utf-8",
         )
 
-        # Normalize the parser output
         normalizer = NormalizerFactory.get_normalizer(
             "pymupdf4llm",
         )
@@ -63,7 +85,6 @@ class PyMuPDF4LLMParser(BaseParser):
             json_data,
         )
 
-        # Validate normalized schema
         SchemaValidator.validate(
             normalized,
         )

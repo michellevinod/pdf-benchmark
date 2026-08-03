@@ -1,0 +1,224 @@
+[
+    {
+        "parser": "docling",
+        "status": "Success",
+        "text_statistics": {
+            "page_count": 62,
+            "pages_with_text": 62,
+            "empty_pages": 0,
+            "character_count": 87161,
+            "word_count": 14364,
+            "line_count": 2634,
+            "average_words_per_page": 231.68
+        },
+        "text_quality": {
+            "exact_match": false,
+            "character_error_rate": 0.4538,
+            "word_error_rate": 0.4523,
+            "normalized_edit_similarity": 0.5462,
+            "text_coverage_percent": 73.14
+        },
+        "table_statistics": {
+            "extracted_table_count": 42,
+            "pages_with_tables": 26,
+            "total_cells": 2427,
+            "average_tables_per_page": 0.68,
+            "empty_tables": 0
+        },
+        "table_quality": {
+            "reference_table_count": 48,
+            "extracted_table_count": 42,
+            "detected_tables": 42,
+            "missing_tables": 6,
+            "extra_tables": 0,
+            "table_precision": 1.0,
+            "table_recall": 0.875,
+            "table_f1_score": 0.9333,
+            "table_coverage_percent": 87.5,
+            "teds_score": 16.02
+        },
+        "image_statistics": {
+            "extracted_image_count": 62,
+            "figure_count": 62,
+            "pages_with_images": 46,
+            "average_images_per_page": 1.0
+        },
+        "image_quality": {
+            "reference_image_count": 62,
+            "extracted_image_count": 62,
+            "missing_images": 0,
+            "extra_images": 0,
+            "image_coverage_percent": 100.0,
+            "structural_image_match": "N/A/Unsupported"
+        },
+        "layout_statistics": {
+            "layout_block_count": 2738,
+            "pages_with_layout": 62,
+            "ocr_pages": 0,
+            "average_layout_blocks_per_page": 44.16
+        },
+        "layout_quality": {
+            "reference_block_count": 1649,
+            "extracted_block_count": 2738,
+            "missing_layout_blocks": 0,
+            "extra_layout_blocks": 1089,
+            "layout_coverage_percent": 100.0,
+            "spatial_block_matching": "N/A/Unsupported",
+            "reading_order_accuracy": "N/A/Unsupported"
+        },
+        "document_has_metadata": true,
+        "document_has_statistics": true,
+        "document_has_pages": true,
+        "pages_with_text": 62,
+        "pages_without_text": 0,
+        "pages_with_metadata": 62
+    },
+    {
+        "parser": "liteparse",
+        "status": "Success",
+        "text_statistics": {
+            "page_count": 62,
+            "pages_with_text": 62,
+            "empty_pages": 0,
+            "character_count": 177339,
+            "word_count": 18251,
+            "line_count": 3100,
+            "average_words_per_page": 294.37
+        },
+        "text_quality": {
+            "exact_match": false,
+            "character_error_rate": 0.7379,
+            "word_error_rate": 0.5999,
+            "normalized_edit_similarity": 0.2621,
+            "text_coverage_percent": 100.0
+        },
+        "table_statistics": {
+            "extracted_table_count": 0,
+            "pages_with_tables": 0,
+            "total_cells": 0,
+            "average_tables_per_page": 0.0,
+            "empty_tables": 0
+        },
+        "table_quality": {
+            "reference_table_count": 48,
+            "extracted_table_count": 0,
+            "detected_tables": 0,
+            "missing_tables": 48,
+            "extra_tables": 0,
+            "table_precision": 0.0,
+            "table_recall": 0.0,
+            "table_f1_score": 0.0,
+            "table_coverage_percent": 0.0,
+            "teds_score": "N/A/Unsupported"
+        },
+        "image_statistics": {
+            "extracted_image_count": 0,
+            "figure_count": 0,
+            "pages_with_images": 0,
+            "average_images_per_page": 0.0
+        },
+        "image_quality": {
+            "reference_image_count": 62,
+            "extracted_image_count": 0,
+            "missing_images": 62,
+            "extra_images": 0,
+            "image_coverage_percent": 0.0,
+            "structural_image_match": "N/A/Unsupported"
+        },
+        "layout_statistics": {
+            "layout_block_count": 6517,
+            "pages_with_layout": 62,
+            "ocr_pages": 34,
+            "average_layout_blocks_per_page": 105.11
+        },
+        "layout_quality": {
+            "reference_block_count": 1649,
+            "extracted_block_count": 6517,
+            "missing_layout_blocks": 0,
+            "extra_layout_blocks": 4868,
+            "layout_coverage_percent": 100.0,
+            "spatial_block_matching": "N/A/Unsupported",
+            "reading_order_accuracy": "N/A/Unsupported"
+        },
+        "document_has_metadata": true,
+        "document_has_statistics": true,
+        "document_has_pages": true,
+        "pages_with_text": 62,
+        "pages_without_text": 0,
+        "pages_with_metadata": 62
+    },
+    {
+        "parser": "pymupdf4llm",
+        "status": "Success",
+        "text_statistics": {
+            "page_count": 62,
+            "pages_with_text": 62,
+            "empty_pages": 0,
+            "character_count": 132576,
+            "word_count": 14343,
+            "line_count": 1860,
+            "average_words_per_page": 231.34
+        },
+        "text_quality": {
+            "exact_match": false,
+            "character_error_rate": 0.3447,
+            "word_error_rate": 0.3582,
+            "normalized_edit_similarity": 0.6553,
+            "text_coverage_percent": 100.0
+        },
+        "table_statistics": {
+            "extracted_table_count": 33,
+            "pages_with_tables": 28,
+            "total_cells": "N/A/Unsupported",
+            "average_tables_per_page": 0.53,
+            "empty_tables": 0
+        },
+        "table_quality": {
+            "reference_table_count": 48,
+            "extracted_table_count": 33,
+            "detected_tables": 33,
+            "missing_tables": 15,
+            "extra_tables": 0,
+            "table_precision": 1.0,
+            "table_recall": 0.6875,
+            "table_f1_score": 0.8148,
+            "table_coverage_percent": 68.75,
+            "teds_score": "N/A/Unsupported"
+        },
+        "image_statistics": {
+            "extracted_image_count": 0,
+            "figure_count": 0,
+            "pages_with_images": 0,
+            "average_images_per_page": 0.0
+        },
+        "image_quality": {
+            "reference_image_count": 62,
+            "extracted_image_count": 0,
+            "missing_images": 62,
+            "extra_images": 0,
+            "image_coverage_percent": 0.0,
+            "structural_image_match": "N/A/Unsupported"
+        },
+        "layout_statistics": {
+            "layout_block_count": 580,
+            "pages_with_layout": 62,
+            "ocr_pages": 0,
+            "average_layout_blocks_per_page": 9.35
+        },
+        "layout_quality": {
+            "reference_block_count": 1649,
+            "extracted_block_count": 580,
+            "missing_layout_blocks": 1069,
+            "extra_layout_blocks": 0,
+            "layout_coverage_percent": 35.17,
+            "spatial_block_matching": "N/A/Unsupported",
+            "reading_order_accuracy": "N/A/Unsupported"
+        },
+        "document_has_metadata": true,
+        "document_has_statistics": true,
+        "document_has_pages": true,
+        "pages_with_text": 62,
+        "pages_without_text": 0,
+        "pages_with_metadata": 62
+    }
+]

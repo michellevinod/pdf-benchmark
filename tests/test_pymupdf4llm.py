@@ -1,19 +1,18 @@
+import json
 from pathlib import Path
 
-import pymupdf4llm
+from normalization.pymupdf4llm_normalizer import PyMuPDF4LLMNormalizer
 
-pdf_path = "benchmark_dataset/PDF_Benchmarking_Tester.pdf"
 
-markdown = pymupdf4llm.to_markdown(pdf_path)
+def test_pymupdf4llm_normalizer_keeps_page_boxes_as_layout_blocks():
+    raw = json.loads(
+        Path("outputs/pymupdf4llm/output.json").read_text(encoding="utf-8")
+    )
 
-print(markdown[:1000])
+    normalized = PyMuPDF4LLMNormalizer().normalize(raw)
 
-output_path = Path("outputs/pymupdf4llm/output.md")
-output_path.parent.mkdir(parents=True, exist_ok=True)
-
-output_path.write_text(
-    markdown,
-    encoding="utf-8"
-)
-
-print(f"\nSaved to {output_path}")
+    first_page = normalized["pages"][0]
+    assert "layout_blocks" in first_page
+    assert first_page["layout_blocks"], "Page box metadata should not be discarded during normalization"
+    assert any(block.get("type") == "table" for block in first_page["layout_blocks"])
+    assert normalized["statistics"]["page_count"] >= 1

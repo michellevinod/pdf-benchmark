@@ -1,0 +1,63 @@
+page_number,text_block_count,table_count,image_count,layout_block_count,requires_ocr_review,review_reason,verified
+1,51,1,1,51,false,table_detection; image_content; complex_layout; multi_column,false
+2,74,1,1,74,false,table_detection; image_content; complex_layout; multi_column,false
+3,12,1,1,12,false,table_detection; image_content,false
+4,71,1,1,71,false,table_detection; image_content; complex_layout; multi_column,false
+5,48,1,1,48,false,table_detection; image_content; complex_layout; multi_column,false
+6,63,1,1,63,false,table_detection; image_content; complex_layout; multi_column,false
+7,18,1,1,18,false,table_detection; image_content,false
+8,53,1,1,53,false,table_detection; image_content; complex_layout; multi_column,false
+9,9,1,1,9,false,table_detection; image_content,false
+10,5,1,8,5,false,table_detection; image_content,false
+11,5,0,0,5,false,standard,false
+12,12,0,0,12,false,standard,false
+13,19,0,0,19,false,standard,false
+14,29,0,0,29,false,complex_layout; multi_column,false
+15,47,0,0,47,false,complex_layout; multi_column,false
+16,23,1,7,24,false,table_detection; image_content; multi_column,false
+17,110,1,0,110,false,table_detection; complex_layout; multi_column,false
+18,61,1,0,61,false,table_detection; complex_layout; multi_column,false
+19,163,1,7,163,false,table_detection; image_content; complex_layout; multi_column,false
+20,34,1,0,34,false,table_detection; complex_layout; multi_column,false
+21,32,2,0,32,false,table_detection; complex_layout; multi_column,false
+22,61,0,0,61,false,complex_layout; multi_column,false
+23,51,0,0,51,false,complex_layout; multi_column,false
+24,45,0,0,45,false,complex_layout; multi_column,false
+25,22,0,0,22,false,multi_column,false
+26,3,0,1,5,false,image_content,false
+27,39,1,1,42,false,table_detection; image_content; complex_layout; multi_column,false
+28,4,0,1,4,false,image_content,false
+29,4,0,1,5,false,image_content,false
+30,9,1,1,9,false,table_detection; image_content,false
+31,9,2,1,10,false,table_detection; image_content,false
+32,20,0,1,21,false,image_content; multi_column,false
+33,7,5,1,7,false,table_detection; image_content,false
+34,19,3,1,19,false,table_detection; image_content,false
+35,19,1,1,20,false,table_detection; image_content,false
+36,28,2,1,35,false,table_detection; image_content; complex_layout; multi_column,false
+37,3,0,2,4,false,image_content,false
+38,6,0,1,6,false,image_content,false
+39,18,0,0,18,false,standard,false
+40,15,0,0,15,false,standard,false
+41,11,0,0,11,false,standard,false
+42,9,0,0,9,false,standard,false
+43,18,0,0,18,false,standard,false
+44,15,0,0,15,false,standard,false
+45,11,0,0,11,false,standard,false
+46,22,3,0,22,false,table_detection; multi_column,false
+47,16,0,1,16,false,image_content,false
+48,25,0,1,25,false,image_content; multi_column,false
+49,16,0,1,16,false,image_content,false
+50,4,0,0,4,false,standard,false
+51,33,0,2,33,false,image_content; complex_layout; multi_column,false
+52,21,0,0,21,false,multi_column,false
+53,5,0,1,5,false,image_content,false
+54,3,0,0,7,false,standard,false
+55,3,0,2,3,false,image_content,false
+56,5,0,1,5,false,image_content,false
+57,15,2,1,17,false,table_detection; image_content,false
+58,2,0,3,5,false,image_content,false
+59,8,8,1,8,false,table_detection; image_content,false
+60,17,1,1,18,false,table_detection; image_content,false
+61,3,0,1,4,false,image_content,false
+62,35,2,1,37,false,table_detection; image_content; complex_layout; multi_column,false
