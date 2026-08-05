@@ -11,7 +11,7 @@ DEFAULT_PDF_PATH = "benchmark_dataset/PDF_Benchmarking_Tester.pdf"
 DEFAULT_GROUND_TRUTH_PATH = "benchmark_dataset/ground_truth.json"
 DEFAULT_VALIDATION_PATH = "benchmark_dataset/ground_truth_validation.json"
 DEFAULT_REVIEW_PATH = "benchmark_dataset/ground_truth_review.csv"
-EXPECTED_PAGE_COUNT = 62
+EXPECTED_PAGE_COUNT = 63
 
 
 def _bbox_to_list(value):

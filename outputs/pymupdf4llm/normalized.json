@@ -1,8 +1,8 @@
 {
     "parser": "pymupdf4llm",
-    "source_pdf": "PDF_Benchmarking_Tester.pdf",
+    "source_pdf": "PDF_BenchmarkTester_63Pages.pdf",
     "metadata": {
-        "page_count": 62,
+        "page_count": 63,
         "source": "pymupdf4llm"
     },
     "pages": [
@@ -906,11 +906,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 1
             }
         },
@@ -1967,11 +1967,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 2
             }
         },
@@ -2246,11 +2246,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 3
             }
         },
@@ -3321,11 +3321,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 4
             }
         },
@@ -4304,11 +4304,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 5
             }
         },
@@ -6931,11 +6931,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 6
             }
         },
@@ -7250,11 +7250,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 7
             }
         },
@@ -8065,11 +8065,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 8
             }
         },
@@ -8754,11 +8754,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 9
             }
         },
@@ -8985,11 +8985,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 10
             }
         },
@@ -9131,11 +9131,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 11
             }
         },
@@ -9371,11 +9371,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 12
             }
         },
@@ -9687,11 +9687,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 13
             }
         },
@@ -10207,11 +10207,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 14
             }
         },
@@ -10523,11 +10523,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 15
             }
         },
@@ -10703,11 +10703,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 16
             }
         },
@@ -10798,11 +10798,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 17
             }
         },
@@ -10919,11 +10919,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 18
             }
         },
@@ -11242,11 +11242,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 19
             }
         },
@@ -12428,11 +12428,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 20
             }
         },
@@ -12523,11 +12523,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 21
             }
         },
@@ -14903,11 +14903,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 22
             }
         },
@@ -17451,11 +17451,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 23
             }
         },
@@ -19356,11 +19356,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 24
             }
         },
@@ -19604,11 +19604,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 25
             }
         },
@@ -20150,11 +20150,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 26
             }
         },
@@ -20245,11 +20245,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 27
             }
         },
@@ -20425,11 +20425,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 28
             }
         },
@@ -20571,11 +20571,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 29
             }
         },
@@ -21164,11 +21164,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 30
             }
         },
@@ -22231,11 +22231,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 31
             }
         },
@@ -22360,11 +22360,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 32
             }
         },
@@ -23479,11 +23479,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 33
             }
         },
@@ -23591,11 +23591,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 34
             }
         },
@@ -23899,11 +23899,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 35
             }
         },
@@ -24644,11 +24644,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 36
             }
         },
@@ -24756,11 +24756,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 37
             }
         },
@@ -24868,11 +24868,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 38
             }
         },
@@ -25082,11 +25082,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 39
             }
         },
@@ -25203,11 +25203,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 40
             }
         },
@@ -25434,11 +25434,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 41
             }
         },
@@ -25716,11 +25716,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 42
             }
         },
@@ -25964,11 +25964,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 43
             }
         },
@@ -26212,11 +26212,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 44
             }
         },
@@ -26494,11 +26494,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 45
             }
         },
@@ -26725,11 +26725,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 46
             }
         },
@@ -27007,11 +27007,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 47
             }
         },
@@ -27204,11 +27204,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 48
             }
         },
@@ -27367,11 +27367,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 49
             }
         },
@@ -27801,11 +27801,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 50
             }
         },
@@ -27998,11 +27998,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 51
             }
         },
@@ -28382,11 +28382,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 52
             }
         },
@@ -28460,11 +28460,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 53
             }
         },
@@ -28538,11 +28538,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 54
             }
         },
@@ -28667,11 +28667,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 55
             }
         },
@@ -29187,11 +29187,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 56
             }
         },
@@ -30222,11 +30222,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 57
             }
         },
@@ -30351,11 +30351,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 58
             }
         },
@@ -31628,11 +31628,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 59
             }
         },
@@ -31984,11 +31984,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 60
             }
         },
@@ -32113,11 +32113,11 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 61
             }
         },
@@ -32511,17 +32511,180 @@
                 "creator": "",
                 "producer": "iLovePDF",
                 "creationDate": "",
-                "modDate": "D:20260728052217Z",
+                "modDate": "D:20260805062148Z",
                 "trapped": "",
                 "encryption": null,
-                "file_path": "benchmark_dataset/PDF_Benchmarking_Tester.pdf",
-                "page_count": 62,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
                 "page_number": 62
+            }
+        },
+        {
+            "page_number": 63,
+            "text": "HROs have procedures that are designed to prevent errors, are standardized in format, and function to ensure that they are followed by workers throughout their industries, regardless of company affiliation. Performance mode thinking, as an aspect of human factors, helps to create procedures that consider the factors that produce errors and attempts to eliminate them when procedures are created. \n\nIn the oil and gas industry, differences exist in contractors’ operating procedures that sometimes exhibit little consistency. Such nonstandardized work processes lead to deviations by individuals and crews and difficulty in training people as they move from one location or company to another. These deviations continue to occur in the oil and gas industry and are typically masked on a contractor’s mishap report under the label “not following procedures,” which does not cite proper corrective actions other than “follow the procedures” to prevent similar incidents. Furthermore, the more routine the work becomes for a worker, the more apt the worker is to drift from the original/mentored way of conducting work. This effect is known as procedural drift, an adaptation of practical drift (Snook 2000), the search to establish why formal safety procedures may not ensure system safety. \n\nThere is a concern that the industry is exposed to workers who learn their craft and reapply knowledge from each other more than from formal/procedural training (Caldwell and Hinton 2015). This approach to conducting work has left a large variable in the output of the work and highlights the development of workers as the single point of failure in the management system. \n\nThe nuclear and commercial aviation industries provide an interesting counterpoint to this approach. These industries developed detailed, standardized, step-by-step operating procedures to help prevent human error during routine work, where most incidents occur in the oil and gas industry. These highly detailed operating procedures became the foundation of the safety or operational management system for each organization in their industry and created a step change in safety. Today, operating procedures are the cornerstone of any corporate management system throughout these industries because they are used for training, investigation, quality control, auditing, continuous improvement, and organizational learning. \n\nThere are efforts underway within the oil and gas industry to change the course. An oil and gas service provider designed a system of checklists for operating perforating guns with a goal of lowering their misfire rate. Although the project was initially identified as an operational enhancement and not specifically a safety improvement, the focus on risk (misfire) reduction provided improvements in safety, reliability, and operations. Perforating-gun checklists were designed to catch human errors during the process of rebuilding the guns. Three months after crews were trained on how to use the checklists and with more than 1,600 gun runs, the results were staggering. With a measured operational improvement of 74% within a few months and a quarterly savings of more than USD 18 million, the service provider declared the project a tremendous success. Three years later, the teams that received the checklists and training realized reliability improvements of more than 300% (Dingee 2015). \n\nThe importance of the worker to their management system cannot be overstated. Company management systems in the oil and gas industry have been in a constant state of overhaul and revision for the last 20 years to improve safety culture and organizational performance. This is because humans govern and accomplish all the activities necessary to control the risk of incidents. Not only do humans unintentionally make errors in executing a process that can result in an incident, they also make errors by creating deficiencies in the design and implementation of management systems. We are prone to making errors in all areas of management systems such as authorities, accountabilities, procedures, feedback, proof documents, and continual \n\n**SPE Technical Report** • Getting to Zero and Beyond: The Path Forward \n\n13 \n\n",
+            "markdown": "HROs have procedures that are designed to prevent errors, are standardized in format, and function to ensure that they are followed by workers throughout their industries, regardless of company affiliation. Performance mode thinking, as an aspect of human factors, helps to create procedures that consider the factors that produce errors and attempts to eliminate them when procedures are created. \n\nIn the oil and gas industry, differences exist in contractors’ operating procedures that sometimes exhibit little consistency. Such nonstandardized work processes lead to deviations by individuals and crews and difficulty in training people as they move from one location or company to another. These deviations continue to occur in the oil and gas industry and are typically masked on a contractor’s mishap report under the label “not following procedures,” which does not cite proper corrective actions other than “follow the procedures” to prevent similar incidents. Furthermore, the more routine the work becomes for a worker, the more apt the worker is to drift from the original/mentored way of conducting work. This effect is known as procedural drift, an adaptation of practical drift (Snook 2000), the search to establish why formal safety procedures may not ensure system safety. \n\nThere is a concern that the industry is exposed to workers who learn their craft and reapply knowledge from each other more than from formal/procedural training (Caldwell and Hinton 2015). This approach to conducting work has left a large variable in the output of the work and highlights the development of workers as the single point of failure in the management system. \n\nThe nuclear and commercial aviation industries provide an interesting counterpoint to this approach. These industries developed detailed, standardized, step-by-step operating procedures to help prevent human error during routine work, where most incidents occur in the oil and gas industry. These highly detailed operating procedures became the foundation of the safety or operational management system for each organization in their industry and created a step change in safety. Today, operating procedures are the cornerstone of any corporate management system throughout these industries because they are used for training, investigation, quality control, auditing, continuous improvement, and organizational learning. \n\nThere are efforts underway within the oil and gas industry to change the course. An oil and gas service provider designed a system of checklists for operating perforating guns with a goal of lowering their misfire rate. Although the project was initially identified as an operational enhancement and not specifically a safety improvement, the focus on risk (misfire) reduction provided improvements in safety, reliability, and operations. Perforating-gun checklists were designed to catch human errors during the process of rebuilding the guns. Three months after crews were trained on how to use the checklists and with more than 1,600 gun runs, the results were staggering. With a measured operational improvement of 74% within a few months and a quarterly savings of more than USD 18 million, the service provider declared the project a tremendous success. Three years later, the teams that received the checklists and training realized reliability improvements of more than 300% (Dingee 2015). \n\nThe importance of the worker to their management system cannot be overstated. Company management systems in the oil and gas industry have been in a constant state of overhaul and revision for the last 20 years to improve safety culture and organizational performance. This is because humans govern and accomplish all the activities necessary to control the risk of incidents. Not only do humans unintentionally make errors in executing a process that can result in an incident, they also make errors by creating deficiencies in the design and implementation of management systems. We are prone to making errors in all areas of management systems such as authorities, accountabilities, procedures, feedback, proof documents, and continual \n\n**SPE Technical Report** • Getting to Zero and Beyond: The Path Forward \n\n13 \n\n",
+            "tables": [],
+            "images": [],
+            "figures": [],
+            "layout_blocks": [
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 53.0,
+                        "r": 534.0,
+                        "b": 106.0
+                    },
+                    "page_number": 63,
+                    "index": 0,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        0,
+                        400
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 123.0,
+                        "r": 534.0,
+                        "b": 247.0
+                    },
+                    "page_number": 63,
+                    "index": 1,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        400,
+                        1292
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 264.0,
+                        "r": 534.0,
+                        "b": 317.0
+                    },
+                    "page_number": 63,
+                    "index": 2,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        1292,
+                        1667
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 334.0,
+                        "r": 534.0,
+                        "b": 429.0
+                    },
+                    "page_number": 63,
+                    "index": 3,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        1667,
+                        2391
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 53.0,
+                        "t": 446.0,
+                        "r": 534.0,
+                        "b": 583.0
+                    },
+                    "page_number": 63,
+                    "index": 4,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        2391,
+                        3391
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": {
+                        "l": 53.0,
+                        "t": 600.0,
+                        "r": 534.0,
+                        "b": 695.0
+                    },
+                    "page_number": 63,
+                    "index": 5,
+                    "class": "text",
+                    "text": "",
+                    "pos": [
+                        3391,
+                        4131
+                    ]
+                },
+                {
+                    "type": "page-footer",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 737.0,
+                        "r": 354.0,
+                        "b": 747.0
+                    },
+                    "page_number": 63,
+                    "index": 6,
+                    "class": "page-footer",
+                    "text": "",
+                    "pos": [
+                        4131,
+                        4205
+                    ]
+                },
+                {
+                    "type": "page-footer",
+                    "bbox": {
+                        "l": 534.0,
+                        "t": 738.0,
+                        "r": 548.0,
+                        "b": 745.0
+                    },
+                    "page_number": 63,
+                    "index": 7,
+                    "class": "page-footer",
+                    "text": "",
+                    "pos": [
+                        4205,
+                        4210
+                    ]
+                }
+            ],
+            "ocr_text": "",
+            "metadata": {
+                "format": "PDF 1.7",
+                "title": "",
+                "author": "",
+                "subject": "",
+                "keywords": "",
+                "creator": "",
+                "producer": "iLovePDF",
+                "creationDate": "",
+                "modDate": "D:20260805062148Z",
+                "trapped": "",
+                "encryption": null,
+                "file_path": "benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+                "page_count": 63,
+                "page_number": 63
             }
         }
     ],
     "statistics": {
-        "page_count": 62,
+        "page_count": 63,
         "table_count": 33,
         "structured_table_count": 30,
         "table_cell_count": 3148,

@@ -22,9 +22,11 @@ class BenchmarkRunner:
     def __init__(
         self,
         pdf_path: str,
+        ground_truth_path: str = "benchmark_dataset/ground_truth.json",
     ):
 
         self.pdf_path = pdf_path
+        self.ground_truth_path = ground_truth_path
 
         self.parsers = [
             "docling",
@@ -40,8 +42,15 @@ class BenchmarkRunner:
 
         benchmark_results = []
 
-        ground_truth_path = Path("benchmark_dataset/ground_truth.json")
-        ground_truth_document = GroundTruthLoader.load(ground_truth_path)
+        
+        ground_truth_path = Path(
+            self.ground_truth_path
+        )
+
+        ground_truth_document = GroundTruthLoader.load(
+            ground_truth_path
+        )
+        
 
         reference_pages = GroundTruthLoader.get_page_texts(ground_truth_document)
         reference_tables = GroundTruthLoader.get_reference_tables(ground_truth_document)
@@ -216,7 +225,8 @@ class BenchmarkRunner:
 if __name__ == "__main__":
 
     runner = BenchmarkRunner(
-        pdf_path="benchmark_dataset/PDF_Benchmarking_Tester.pdf",
+        pdf_path="benchmark_dataset/PDF_BenchmarkTester_63Pages.pdf",
+        ground_truth_path="benchmark_dataset/ground_truth_63pages.json",
     )
 
     runner.run()

@@ -1,6 +1,6 @@
 {
     "parser": "liteparse",
-    "source_pdf": "PDF_Benchmarking_Tester.pdf",
+    "source_pdf": "PDF_BenchmarkTester_63Pages.pdf",
     "metadata": {
         "producer": "iLovePDF",
         "creator": null,
@@ -110000,10 +110000,647 @@
                 "structure_tree": null,
                 "complexity": null
             }
+        },
+        {
+            "page_number": 63,
+            "text": "HROs have procedures that are designed to prevent errors, are standardized in format, and function to ensure\nthat they are followed by workers throughout their industries, regardless of company affiliation. Performance\nmode thinking, as an aspect of human factors, helps to create procedures that consider the factors that produce\nerrors and attempts to eliminate them when procedures are created.\nIn the oil and gas industry, differences exist in contractors' operating procedures that sometimes exhibit little\nconsistency. Such nonstandardized work processes lead to deviations by individuals and crews and difficulty\nin training people as they move from one location or company to another. These deviations continue to oc-\ncur in the oil and gas industry and are typically masked on a contractor's mishap report under the label \"not\nfollowing procedures,\" which does not cite proper corrective actions other than \"follow the procedures\" to\nprevent similar incidents. Furthermore, the more routine the work becomes for a worker, the more apt the\nworker is to drift from the original/mentored way of conducting work. This effect is known as procedural\ndrift, an adaptation of practical drift (Snook 2000), the search to establish why formal safety procedures may\nnot ensure system safety.\nThere is a concern that the industry is exposed to workers who learn their craft and reapply knowledge from\neach other more than from formal/procedural training (Caldwell and Hinton 2015). This approach to conduct-\ning work has left a large variable in the output of the work and highlights the development of workers as the\nsingle point of failure in the management system.\nThe nuclear and commercial aviation industries provide an interesting counterpoint to this approach. These\nindustries developed detailed, standardized, step-by-step operating procedures to help prevent human error\nduring routine work, where most incidents occur in the oil and gas industry. These highly detailed operating\nprocedures became the foundation of the safety or operational management system for each organization in\ntheir industry and created a step change in safety. Today, operating procedures are the cornerstone of any\ncorporate management system throughout these industries because they are used for training, investigation,\nquality control, auditing, continuous improvement, and organizational learning.\nThere are efforts underway within the oil and gas industry to change the course. An oil and gas service pro-\nvider designed a system of checklists for operating perforating guns with a goal of lowering their misfire rate.\nAlthough the project was initially identified as an operational enhancement and not specifically a safety im-\nprovement, the focus on risk (misfire) reduction provided improvements in safety, reliability, and operations.\nPerforating-gun checklists were designed to catch human errors during the process of rebuilding the guns.\nThree months after crews were trained on how to use the checklists and with more than 1,600 gun runs, the\nresults were staggering. With a measured operational improvement of 74% within a few months and a quar-\nterly savings of more than USD 18 million, the service provider declared the project a tremendous success.\nThree years later, the teams that received the checklists and training realized reliability improvements of more\nthan 300% (Dingee 2015).\nThe importance of the worker to their management system cannot be overstated. Company management\nsystems in the oil and gas industry have been in a constant state of overhaul and revision for the last 20 years\nto improve safety culture and organizational performance. This is because humans govern and accomplish\nall the activities necessary to control the risk of incidents. Not only do humans unintentionally make errors\nin executing a process that can result in an incident, they also make errors by creating deficiencies in the\ndesign and implementation of management systems. We are prone to making errors in all areas of manage-\nment systems such as authorities, accountabilities, procedures, feedback, proof documents, and continual\n\n\n    SPE Technical Report • Getting to Zero and Beyond: The Path Forward    13",
+            "markdown": "HROs have procedures that are designed to prevent errors, are standardized in format, and function to ensure that they are followed by workers throughout their industries, regardless of company affiliation. Performance mode thinking, as an aspect of human factors, helps to create procedures that consider the factors that produce errors and attempts to eliminate them when procedures are created. In the oil and gas industry, differences exist in contractors' operating procedures that sometimes exhibit little consistency. Such nonstandardized work processes lead to deviations by individuals and crews and difficulty in training people as they move from one location or company to another. These deviations continue to occur in the oil and gas industry and are typically masked on a contractor's mishap report under the label \"not following procedures,\" which does not cite proper corrective actions other than \"follow the procedures\" to prevent similar incidents. Furthermore, the more routine the work becomes for a worker, the more apt the worker is to drift from the original/mentored way of conducting work. This effect is known as procedural drift, an adaptation of practical drift (Snook 2000), the search to establish why formal safety procedures may not ensure system safety. There is a concern that the industry is exposed to workers who learn their craft and reapply knowledge from each other more than from formal/procedural training (Caldwell and Hinton 2015). This approach to conducting work has left a large variable in the output of the work and highlights the development of workers as the single point of failure in the management system. The nuclear and commercial aviation industries provide an interesting counterpoint to this approach. These industries developed detailed, standardized, step-by-step operating procedures to help prevent human error during routine work, where most incidents occur in the oil and gas industry. These highly detailed operating procedures became the foundation of the safety or operational management system for each organization in their industry and created a step change in safety. Today, operating procedures are the cornerstone of any corporate management system throughout these industries because they are used for training, investigation, quality control, auditing, continuous improvement, and organizational learning. There are efforts underway within the oil and gas industry to change the course. An oil and gas service provider designed a system of checklists for operating perforating guns with a goal of lowering their misfire rate. Although the project was initially identified as an operational enhancement and not specifically a safety improvement, the focus on risk (misfire) reduction provided improvements in safety, reliability, and operations. Perforating-gun checklists were designed to catch human errors during the process of rebuilding the guns. Three months after crews were trained on how to use the checklists and with more than 1,600 gun runs, the results were staggering. With a measured operational improvement of 74% within a few months and a quarterly savings of more than USD 18 million, the service provider declared the project a tremendous success. Three years later, the teams that received the checklists and training realized reliability improvements of more than 300% (Dingee 2015). The importance of the worker to their management system cannot be overstated. Company management systems in the oil and gas industry have been in a constant state of overhaul and revision for the last 20 years to improve safety culture and organizational performance. This is because humans govern and accomplish all the activities necessary to control the risk of incidents. Not only do humans unintentionally make errors in executing a process that can result in an incident, they also make errors by creating deficiencies in the design and implementation of management systems. We are prone to making errors in all areas of management systems such as authorities, accountabilities, procedures, feedback, proof documents, and continual\n\n**SPE Technical Report • Getting to Zero and Beyond: The Path Forward** 13",
+            "tables": [],
+            "images": [],
+            "figures": [],
+            "layout_blocks": [
+                {
+                    "type": "text",
+                    "text": "HROs have procedures that are designed to prevent errors, are standardized in format, and function to ensure",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 50.54998779296875,
+                        "r": 531.0281982421875,
+                        "b": 65.0040283203125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "that they are followed by workers throughout their industries, regardless of company affiliation. Performance",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 64.552978515625,
+                        "r": 531.0281982421875,
+                        "b": 79.00701904296875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "mode thinking, as an aspect of human factors, helps to create procedures that consider the factors that produce",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 78.55596923828125,
+                        "r": 531.021484375,
+                        "b": 93.00994873046875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "errors and attempts to eliminate them when procedures are created.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 92.5589599609375,
+                        "r": 349.0860900878906,
+                        "b": 107.012939453125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "In the oil and gas industry, differences exist in contractors' operating procedures that sometimes exhibit little",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 120.55401611328125,
+                        "r": 531.0281982421875,
+                        "b": 135.00799560546875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "consistency. Such nonstandardized work processes lead to deviations by individuals and crews and difficulty",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 134.5570068359375,
+                        "r": 530.9810180664062,
+                        "b": 149.010986328125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "in training people as they move from one location or company to another. These deviations continue to oc-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 148.55999755859375,
+                        "r": 531.0326538085938,
+                        "b": 163.01397705078125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "cur in the oil and gas industry and are typically masked on a contractor\\'s mishap report under the label \"not",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 162.56298828125,
+                        "r": 530.9886474609375,
+                        "b": 177.01702880859375
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "following procedures,\" which does not cite proper corrective actions other than \"follow the procedures\" to",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 176.56597900390625,
+                        "r": 531.0172119140625,
+                        "b": 191.02001953125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "prevent similar incidents. Furthermore, the more routine the work becomes for a worker, the more apt the",
+                    "bbox": {
+                        "l": 53.97800064086914,
+                        "t": 190.5689697265625,
+                        "r": 530.9886512756348,
+                        "b": 205.02301025390625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "worker is to drift from the original/mentored way of conducting work. This effect is known as procedural",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 204.57196044921875,
+                        "r": 531.017333984375,
+                        "b": 219.0260009765625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "drift, an adaptation of practical drift (Snook 2000), the search to establish why formal safety procedures may",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 218.574951171875,
+                        "r": 530.9788208007812,
+                        "b": 233.0289306640625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "not ensure system safety.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 232.57806396484375,
+                        "r": 163.87130737304688,
+                        "b": 247.03204345703125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "There is a concern that the industry is exposed to workers who learn their craft and reapply knowledge from",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 260.572998046875,
+                        "r": 531.0238647460938,
+                        "b": 275.0270080566406
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "each other more than from formal/procedural training (Caldwell and Hinton 2015). This approach to conduct-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 274.5760192871094,
+                        "r": 531.0359497070312,
+                        "b": 289.030029296875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "ing work has left a large variable in the output of the work and highlights the development of workers as the",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 288.5790100097656,
+                        "r": 531.0491943359375,
+                        "b": 303.03302001953125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "single point of failure in the management system.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 302.58197021484375,
+                        "r": 271.5360412597656,
+                        "b": 317.0359802246094
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "The nuclear and commercial aviation industries provide an interesting counterpoint to this approach. These",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 330.57696533203125,
+                        "r": 531.0039672851562,
+                        "b": 345.0309753417969
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "industries developed detailed, standardized, step-by-step operating procedures to help prevent human error",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 344.58001708984375,
+                        "r": 531.0866088867188,
+                        "b": 359.03399658203125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "during routine work, where most incidents occur in the oil and gas industry. These highly detailed operating",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 358.5830383300781,
+                        "r": 531.01171875,
+                        "b": 373.03704833984375
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "procedures became the foundation of the safety or operational management system for each organization in",
+                    "bbox": {
+                        "l": 53.97800064086914,
+                        "t": 372.5860595703125,
+                        "r": 530.983097076416,
+                        "b": 387.0400695800781
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "their industry and created a step change in safety. Today, operating procedures are the cornerstone of any",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 386.5889892578125,
+                        "r": 531.027099609375,
+                        "b": 401.0429992675781
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "corporate management system throughout these industries because they are used for training, investigation,",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 400.592041015625,
+                        "r": 531.0338134765625,
+                        "b": 415.0460205078125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "quality control, auditing, continuous improvement, and organizational learning.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 414.5950622558594,
+                        "r": 403.5987548828125,
+                        "b": 429.049072265625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "There are efforts underway within the oil and gas industry to change the course. An oil and gas service pro-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 442.5900573730469,
+                        "r": 531.0259399414062,
+                        "b": 457.0440673828125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "vider designed a system of checklists for operating perforating guns with a goal of lowering their misfire rate.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 456.59307861328125,
+                        "r": 531.0360107421875,
+                        "b": 471.0470886230469
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "Although the project was initially identified as an operational enhancement and not specifically a safety im-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 470.5960388183594,
+                        "r": 531.022705078125,
+                        "b": 485.050048828125
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "provement, the focus on risk (misfire) reduction provided improvements in safety, reliability, and operations.",
+                    "bbox": {
+                        "l": 53.97800064086914,
+                        "t": 484.59906005859375,
+                        "r": 531.0216102600098,
+                        "b": 499.0530700683594
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "Perforating-gun checklists were designed to catch human errors during the process of rebuilding the guns.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 498.6020202636719,
+                        "r": 530.9985961914062,
+                        "b": 513.0560302734375
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "Three months after crews were trained on how to use the checklists and with more than 1,600 gun runs, the",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 512.60498046875,
+                        "r": 531.01953125,
+                        "b": 527.0590209960938
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "results were staggering. With a measured operational improvement of 74% within a few months and a quar-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 526.6080322265625,
+                        "r": 531.0039672851562,
+                        "b": 541.06201171875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "terly savings of more than USD 18 million, the service provider declared the project a tremendous success.",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 540.6109619140625,
+                        "r": 530.991943359375,
+                        "b": 555.06494140625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "Three years later, the teams that received the checklists and training realized reliability improvements of more",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 554.614013671875,
+                        "r": 531.0206298828125,
+                        "b": 569.0679931640625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "than 300% (Dingee 2015).",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 568.616943359375,
+                        "r": 170.69900512695312,
+                        "b": 583.0709228515625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "The importance of the worker to their management system cannot be overstated. Company management",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 596.6119995117188,
+                        "r": 531.03369140625,
+                        "b": 611.0660400390625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "systems in the oil and gas industry have been in a constant state of overhaul and revision for the last 20 years",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 610.6149291992188,
+                        "r": 531.0315551757812,
+                        "b": 625.0689697265625
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "to improve safety culture and organizational performance. This is because humans govern and accomplish",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 624.617919921875,
+                        "r": 530.99853515625,
+                        "b": 639.0719604492188
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "all the activities necessary to control the risk of incidents. Not only do humans unintentionally make errors",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 638.6209716796875,
+                        "r": 530.9995727539062,
+                        "b": 653.074951171875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "in executing a process that can result in an incident, they also make errors by creating deficiencies in the",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 652.6239013671875,
+                        "r": 531.0084228515625,
+                        "b": 667.0779418945312
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "design and implementation of management systems. We are prone to making errors in all areas of manage-",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 666.6268920898438,
+                        "r": 531.0039672851562,
+                        "b": 681.0809326171875
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "ment systems such as authorities, accountabilities, procedures, feedback,",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 680.6298828125,
+                        "r": 383.4588317871094,
+                        "b": 695.0839233398438
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "proof documents, and continual",
+                    "bbox": {
+                        "l": 387.55523681640625,
+                        "t": 680.6298828125,
+                        "r": 531.0172119140625,
+                        "b": 695.0839233398438
+                    },
+                    "font_name": "TimesNewRomanPSMT",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "SPE Technical Report • Getting to Zero and Beyond: The Path Forward",
+                    "bbox": {
+                        "l": 54.0,
+                        "t": 735.8038940429688,
+                        "r": 348.3601989746094,
+                        "b": 746.513916015625
+                    },
+                    "font_name": "HelveticaLTStd-Bold",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                },
+                {
+                    "type": "text",
+                    "text": "13",
+                    "bbox": {
+                        "l": 537.60595703125,
+                        "t": 736.0828857421875,
+                        "r": 547.1981811523438,
+                        "b": 746.4868774414062
+                    },
+                    "font_name": "HelveticaLTStd-Roman",
+                    "confidence": 1.0,
+                    "rotation": 0.0,
+                    "is_ocr": false
+                }
+            ],
+            "ocr_text": "",
+            "metadata": {
+                "width": 585.0,
+                "height": 783.0,
+                "annotations": null,
+                "form_fields": null,
+                "vector_graphics": null,
+                "content_bounds": null,
+                "structure_tree": null,
+                "complexity": null
+            }
         }
     ],
     "statistics": {
-        "page_count": 62,
+        "page_count": 63,
         "table_count": 59,
         "image_count": 0,
         "image_error_count": 0,

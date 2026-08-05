@@ -51,7 +51,7 @@ class CachedBenchmarkRunner:
         # -------------------------------------------------
 
         ground_truth_path = Path(
-            "benchmark_dataset/ground_truth.json"
+            "benchmark_dataset/ground_truth_63pages.json"
         )
 
         ground_truth_document = GroundTruthLoader.load(

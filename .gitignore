@@ -53,3 +53,11 @@ pip-wheel-metadata/
 tmp/
 temp/
 *.tmp
+
+# Historical benchmark run backups
+archive/
+benchmark_dataset/PDF_Benchmarking_Tester_62pages_backup.pdf
+
+# Superseded benchmark result artifacts
+results/charts/
+results/final_benchmark_comparison.csv

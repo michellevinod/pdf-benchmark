@@ -12,7 +12,10 @@ OUTPUT_PATH = RESULTS_DIR / "final_benchmark_results.json"
 
 
 def load_json(path: Path):
-    with path.open("r", encoding="utf-8") as file:
+    with path.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
         return json.load(file)
 
 
@@ -123,6 +126,35 @@ def main():
         )
 
     final_output = {
+        "metadata": {
+            "description": (
+                "Consolidated final PDF benchmark results."
+            ),
+            "performance_source": (
+                "results/benchmark_results.json"
+            ),
+            "quality_source": (
+                "results/cached_benchmark_results.json"
+            ),
+            "paddleocr_source": (
+                "results/paddleocr_v6_results.json"
+            ),
+            "methodology": {
+                "performance": (
+                    "Performance metrics are preserved from "
+                    "the original parser execution runs."
+                ),
+                "quality": (
+                    "Quality metrics are taken from the latest "
+                    "cached evaluation using the finalized "
+                    "normalization and evaluation pipeline."
+                ),
+                "ocr": (
+                    "PP-OCRv6 results are taken from its "
+                    "independent OCR benchmark evaluation."
+                ),
+            },
+        },
         "parsers": final_results,
         "paddleocr_v6": paddleocr_results,
     }
@@ -148,19 +180,23 @@ def main():
         performance = result["performance"]
 
         print()
+
         print(
             f"Parser      : {result['parser']}"
         )
+
         print(
             f"Execution   : "
             f"{performance['execution_time_seconds']} sec"
         )
+
         print(
             f"Throughput  : "
             f"{performance['throughput_pages_per_second']} pages/sec"
         )
 
     print()
+
     print(
         f"Saved: {OUTPUT_PATH}"
     )

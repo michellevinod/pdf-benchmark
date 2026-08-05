@@ -1,0 +1,94 @@
+{
+    "parser": "docling_batched",
+    "status": "Success",
+    "execution_mode": "10-page batches",
+    "execution_time_seconds": 368.814,
+    "text_statistics": {
+        "page_count": 63,
+        "pages_with_text": 63,
+        "empty_pages": 0,
+        "character_count": 91310,
+        "word_count": 14991,
+        "line_count": 2642,
+        "average_words_per_page": 237.95
+    },
+    "text_quality": {
+        "exact_match": false,
+        "character_error_rate": 0.4397,
+        "word_error_rate": 0.4355,
+        "normalized_edit_similarity": 0.5603,
+        "text_coverage_percent": 74.0
+    },
+    "table_statistics": {
+        "extracted_table_count": 42,
+        "pages_with_tables": 26,
+        "total_cells": 2427,
+        "average_tables_per_page": 0.67,
+        "empty_tables": 0
+    },
+    "table_quality": {
+        "reference_table_count": 48,
+        "extracted_table_count": 42,
+        "detected_tables": 27,
+        "missing_tables": 21,
+        "extra_tables": 15,
+        "table_precision": 0.6429,
+        "table_recall": 0.5625,
+        "table_f1_score": 0.6,
+        "table_coverage_percent": 56.25,
+        "teds_score": 16.02,
+        "spatial_detection_supported": true,
+        "table_iou_threshold": 0.5
+    },
+    "image_statistics": {
+        "extracted_image_count": 62,
+        "figure_count": 62,
+        "pages_with_images": 46,
+        "average_images_per_page": 0.98,
+        "valid_extracted_bboxes": 62
+    },
+    "image_quality": {
+        "reference_image_count": 62,
+        "valid_reference_bboxes": 62,
+        "extracted_image_count": 62,
+        "matched_images": 40,
+        "missing_images": 22,
+        "extra_images": 22,
+        "image_precision": 0.6452,
+        "image_recall": 0.6452,
+        "image_f1_score": 0.6452,
+        "mean_iou": 0.8618,
+        "image_match_rate_percent": 64.52,
+        "structural_image_match": 86.18,
+        "iou_threshold": 0.5
+    },
+    "layout_statistics": {
+        "layout_block_count": 2746,
+        "pages_with_layout": 63,
+        "ocr_pages": 0,
+        "average_layout_blocks_per_page": 43.59,
+        "valid_extracted_bboxes": 2746
+    },
+    "layout_quality": {
+        "reference_block_count": 1656,
+        "valid_reference_bboxes": 1656,
+        "extracted_block_count": 2746,
+        "matched_layout_blocks": 782,
+        "missing_layout_blocks": 874,
+        "extra_layout_blocks": 1964,
+        "layout_precision": 0.2848,
+        "layout_recall": 0.4722,
+        "layout_f1_score": 0.3553,
+        "mean_iou": 0.7716,
+        "layout_match_rate_percent": 47.22,
+        "spatial_block_matching": 77.16,
+        "iou_threshold": 0.5,
+        "reading_order_accuracy": "N/A/Unsupported"
+    },
+    "document_has_metadata": true,
+    "document_has_statistics": true,
+    "document_has_pages": true,
+    "pages_with_text": 63,
+    "pages_without_text": 0,
+    "pages_with_metadata": 63
+}

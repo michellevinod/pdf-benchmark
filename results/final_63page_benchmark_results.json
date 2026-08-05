@@ -1,0 +1,291 @@
+{
+    "metadata": {
+        "description": "Final consolidated 63-page PDF benchmarking results.",
+        "benchmark_document": "PDF_BenchmarkTester_63Pages.pdf",
+        "page_count": 63,
+        "reference_table_count": 48,
+        "reference_image_count": 62,
+        "reference_layout_block_count": 1656,
+        "methodology": {
+            "quality": "All four approaches are evaluated against the same finalized 63-page ground truth using the common benchmark metric implementations.",
+            "docling_performance": "Docling performance uses successful 10-page batched execution because the 63-page single-call run encountered std::bad_alloc during preprocessing.",
+            "standard_performance": "LiteParse and PyMuPDF4LLM performance uses their successful locally profiled 63-page parser executions.",
+            "hybrid_performance": "Hybrid performance is not reported because the pipeline was executed externally and was not measured using the benchmark's local profiler.",
+            "unsupported_metrics": "N/A/Unsupported indicates that the available parser output does not provide the comparable information required by that metric. It must not be interpreted as a score of zero."
+        }
+    },
+    "parsers": [
+        {
+            "parser": "docling",
+            "display_name": "Docling",
+            "version": "2.115.0",
+            "status": "Success",
+            "page_count": 63,
+            "execution_mode": "10-page batched execution",
+            "performance": {
+                "execution_time_seconds": 368.814,
+                "seconds_per_page": 5.854,
+                "throughput_pages_per_second": 0.171,
+                "peak_memory_mb": "N/A/Not measured",
+                "average_cpu_percent": "N/A/Not measured"
+            },
+            "text_quality": {
+                "exact_match": false,
+                "character_error_rate": 0.4397,
+                "word_error_rate": 0.4355,
+                "normalized_edit_similarity": 0.5603,
+                "text_coverage_percent": 74.0
+            },
+            "table_quality": {
+                "reference_table_count": 48,
+                "extracted_table_count": 42,
+                "detected_tables": 27,
+                "missing_tables": 21,
+                "extra_tables": 15,
+                "table_precision": 0.6429,
+                "table_recall": 0.5625,
+                "table_f1_score": 0.6,
+                "table_coverage_percent": 56.25,
+                "teds_score": 16.02,
+                "spatial_detection_supported": true,
+                "table_iou_threshold": 0.5
+            },
+            "image_quality": {
+                "reference_image_count": 62,
+                "valid_reference_bboxes": 62,
+                "extracted_image_count": 62,
+                "matched_images": 40,
+                "missing_images": 22,
+                "extra_images": 22,
+                "image_precision": 0.6452,
+                "image_recall": 0.6452,
+                "image_f1_score": 0.6452,
+                "mean_iou": 0.8618,
+                "image_match_rate_percent": 64.52,
+                "structural_image_match": 86.18,
+                "iou_threshold": 0.5
+            },
+            "layout_quality": {
+                "reference_block_count": 1656,
+                "valid_reference_bboxes": 1656,
+                "extracted_block_count": 2746,
+                "matched_layout_blocks": 782,
+                "missing_layout_blocks": 874,
+                "extra_layout_blocks": 1964,
+                "layout_precision": 0.2848,
+                "layout_recall": 0.4722,
+                "layout_f1_score": 0.3553,
+                "mean_iou": 0.7716,
+                "layout_match_rate_percent": 47.22,
+                "spatial_block_matching": 77.16,
+                "iou_threshold": 0.5,
+                "reading_order_accuracy": "N/A/Unsupported"
+            },
+            "robustness": {}
+        },
+        {
+            "parser": "liteparse",
+            "display_name": "LiteParse",
+            "version": "2.10.0",
+            "status": "Success",
+            "page_count": 63,
+            "execution_mode": "Standard local parser execution",
+            "performance": {
+                "execution_time_seconds": 47.358,
+                "seconds_per_page": 0.752,
+                "throughput_pages_per_second": 1.33,
+                "peak_memory_mb": 1446.35,
+                "average_cpu_percent": 996.87
+            },
+            "text_quality": {
+                "exact_match": false,
+                "character_error_rate": 0.7134,
+                "word_error_rate": 0.5796,
+                "normalized_edit_similarity": 0.2866,
+                "text_coverage_percent": 100.0
+            },
+            "table_quality": {
+                "reference_table_count": 48,
+                "extracted_table_count": 59,
+                "detected_tables": "N/A/Unsupported",
+                "missing_tables": "N/A/Unsupported",
+                "extra_tables": "N/A/Unsupported",
+                "table_precision": "N/A/Unsupported",
+                "table_recall": "N/A/Unsupported",
+                "table_f1_score": "N/A/Unsupported",
+                "table_coverage_percent": "N/A/Unsupported",
+                "teds_score": 12.83,
+                "spatial_detection_supported": false,
+                "table_iou_threshold": "N/A/Unsupported"
+            },
+            "image_quality": {
+                "reference_image_count": 62,
+                "valid_reference_bboxes": 62,
+                "extracted_image_count": 0,
+                "matched_images": "N/A/Unsupported",
+                "missing_images": "N/A/Unsupported",
+                "extra_images": "N/A/Unsupported",
+                "image_precision": "N/A/Unsupported",
+                "image_recall": "N/A/Unsupported",
+                "image_f1_score": "N/A/Unsupported",
+                "mean_iou": "N/A/Unsupported",
+                "image_match_rate_percent": "N/A/Unsupported",
+                "structural_image_match": "N/A/Unsupported",
+                "iou_threshold": 0.5
+            },
+            "layout_quality": {
+                "reference_block_count": 1656,
+                "valid_reference_bboxes": 1656,
+                "extracted_block_count": 6561,
+                "matched_layout_blocks": 724,
+                "missing_layout_blocks": 932,
+                "extra_layout_blocks": 5837,
+                "layout_precision": 0.1103,
+                "layout_recall": 0.4372,
+                "layout_f1_score": 0.1762,
+                "mean_iou": 0.8772,
+                "layout_match_rate_percent": 43.72,
+                "spatial_block_matching": 87.72,
+                "iou_threshold": 0.5,
+                "reading_order_accuracy": "N/A/Unsupported"
+            },
+            "robustness": {}
+        },
+        {
+            "parser": "pymupdf4llm",
+            "display_name": "PyMuPDF4LLM",
+            "version": "1.28.0",
+            "status": "Success",
+            "page_count": 63,
+            "execution_mode": "Standard local parser execution",
+            "performance": {
+                "execution_time_seconds": 53.183,
+                "seconds_per_page": 0.844,
+                "throughput_pages_per_second": 1.185,
+                "peak_memory_mb": 1127.89,
+                "average_cpu_percent": 1152.77
+            },
+            "text_quality": {
+                "exact_match": false,
+                "character_error_rate": 0.3342,
+                "word_error_rate": 0.3454,
+                "normalized_edit_similarity": 0.6658,
+                "text_coverage_percent": 100.0
+            },
+            "table_quality": {
+                "reference_table_count": 48,
+                "extracted_table_count": 33,
+                "detected_tables": 18,
+                "missing_tables": 30,
+                "extra_tables": 15,
+                "table_precision": 0.5455,
+                "table_recall": 0.375,
+                "table_f1_score": 0.4444,
+                "table_coverage_percent": 37.5,
+                "teds_score": 15.64,
+                "spatial_detection_supported": true,
+                "table_iou_threshold": 0.5
+            },
+            "image_quality": {
+                "reference_image_count": 62,
+                "valid_reference_bboxes": 62,
+                "extracted_image_count": 0,
+                "matched_images": "N/A/Unsupported",
+                "missing_images": "N/A/Unsupported",
+                "extra_images": "N/A/Unsupported",
+                "image_precision": "N/A/Unsupported",
+                "image_recall": "N/A/Unsupported",
+                "image_f1_score": "N/A/Unsupported",
+                "mean_iou": "N/A/Unsupported",
+                "image_match_rate_percent": "N/A/Unsupported",
+                "structural_image_match": "N/A/Unsupported",
+                "iou_threshold": 0.5
+            },
+            "layout_quality": {
+                "reference_block_count": 1656,
+                "valid_reference_bboxes": 1656,
+                "extracted_block_count": 588,
+                "matched_layout_blocks": 285,
+                "missing_layout_blocks": 1371,
+                "extra_layout_blocks": 303,
+                "layout_precision": 0.4847,
+                "layout_recall": 0.1721,
+                "layout_f1_score": 0.254,
+                "mean_iou": 0.8281,
+                "layout_match_rate_percent": 17.21,
+                "spatial_block_matching": 82.81,
+                "iou_threshold": 0.5,
+                "reading_order_accuracy": "N/A/Unsupported"
+            },
+            "robustness": {}
+        },
+        {
+            "parser": "hybrid",
+            "display_name": "Hybrid Approach",
+            "version": "Internal / external pipeline",
+            "status": "Success",
+            "page_count": 63,
+            "execution_mode": "External website pipeline; downloaded Markdown evaluated locally",
+            "performance": {
+                "execution_time_seconds": "N/A/Not measured",
+                "seconds_per_page": "N/A/Not measured",
+                "throughput_pages_per_second": "N/A/Not measured",
+                "peak_memory_mb": "N/A/Not measured",
+                "average_cpu_percent": "N/A/Not measured"
+            },
+            "text_quality": {
+                "exact_match": false,
+                "character_error_rate": 0.2664,
+                "word_error_rate": 0.5294,
+                "normalized_edit_similarity": 0.7336,
+                "text_coverage_percent": 99.63
+            },
+            "table_quality": {
+                "reference_table_count": 48,
+                "extracted_table_count": 79,
+                "detected_tables": "N/A/Unsupported",
+                "missing_tables": "N/A/Unsupported",
+                "extra_tables": "N/A/Unsupported",
+                "table_precision": "N/A/Unsupported",
+                "table_recall": "N/A/Unsupported",
+                "table_f1_score": "N/A/Unsupported",
+                "table_coverage_percent": "N/A/Unsupported",
+                "teds_score": 21.73,
+                "spatial_detection_supported": false,
+                "table_iou_threshold": "N/A/Unsupported"
+            },
+            "image_quality": {
+                "reference_image_count": 62,
+                "valid_reference_bboxes": 62,
+                "extracted_image_count": 37,
+                "matched_images": "N/A/Unsupported",
+                "missing_images": "N/A/Unsupported",
+                "extra_images": "N/A/Unsupported",
+                "image_precision": "N/A/Unsupported",
+                "image_recall": "N/A/Unsupported",
+                "image_f1_score": "N/A/Unsupported",
+                "mean_iou": "N/A/Unsupported",
+                "image_match_rate_percent": "N/A/Unsupported",
+                "structural_image_match": "N/A/Unsupported",
+                "iou_threshold": 0.5
+            },
+            "layout_quality": {
+                "reference_block_count": 1656,
+                "valid_reference_bboxes": 1656,
+                "extracted_block_count": 805,
+                "matched_layout_blocks": "N/A/Unsupported",
+                "missing_layout_blocks": "N/A/Unsupported",
+                "extra_layout_blocks": "N/A/Unsupported",
+                "layout_precision": "N/A/Unsupported",
+                "layout_recall": "N/A/Unsupported",
+                "layout_f1_score": "N/A/Unsupported",
+                "mean_iou": "N/A/Unsupported",
+                "layout_match_rate_percent": "N/A/Unsupported",
+                "spatial_block_matching": "N/A/Unsupported",
+                "iou_threshold": 0.5,
+                "reading_order_accuracy": "N/A/Unsupported"
+            },
+            "robustness": {}
+        }
+    ]
+}

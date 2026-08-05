@@ -1,6 +1,7 @@
 from normalization.docling_normalizer import DoclingNormalizer
 from normalization.liteparse_normalizer import LiteParseNormalizer
 from normalization.pymupdf4llm_normalizer import PyMuPDF4LLMNormalizer
+from normalization.hybrid_normalizer import HybridNormalizer
 
 
 class NormalizerFactory:
@@ -14,6 +15,7 @@ class NormalizerFactory:
             "docling": DoclingNormalizer,
             "liteparse": LiteParseNormalizer,
             "pymupdf4llm": PyMuPDF4LLMNormalizer,
+            "hybrid": HybridNormalizer,
         }
 
         if parser_name not in normalizers:
