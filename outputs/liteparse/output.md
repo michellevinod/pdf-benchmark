@@ -105,9 +105,8 @@ FULL 16.000 0 416 SURF 22.000 65 K-55
 
 Mud Information % Gels Temp Mud Dens. Vis PV YP Filt. Cake pH/ES Solids Oil Water Sand LGS Cl Ca CaCl 10s 10m 30m In Out Loss 28-Jun-21 05:15 at Depth 421 ft Mud Pits
 
-| 8.90 | 51 | 19 | 22 | 12.2 | 1 | 9 | 11 | 0 | 89 | 2.5 Bit/BHA/Workstring Information | 800 | 120 | 0 | 9 | 16 | 25 | 85 | 85 | 10.0 |
+| 8.90 | 51 No Run Make | 19 | 22 Model | 12.2 | 1 Diam | 9 Depth In | 11 This Run Dist Hrs | 0 | 89 Avg | 2.5 Bit/BHA/Workstring Information R.O.P. | 800 Max WOB RPM Torque Wt | 120 | 0 | 9 Mud | 16 Pump | 25 Flow Press J. Vel P. Drp HHP | 85 | 85 | 10.0 JIF |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|  | No Run Make |  | Model |  | Diam | Depth In | This Run Dist Hrs |  | Avg | R.O.P. | Max WOB RPM Torque Wt |  |  | Mud | Pump | Flow Press J. Vel P. Drp HHP |  |  | JIF |
 
 | 1 | 1 Smith Jets: 28 28 28 | XR-C | 22.000 | 128 Out: 421 | 293 | 3.5 Grade: Cutter: | 83.7 250.0 1 / 1 | 15 | 90 Dull: NO / NO | 7 | 9 Wear: A | 800 | 576 Brgs: 0 Gge: 0 | 142 | 161 | 75 Pull: TD | 524 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -697,93 +696,21 @@ Motor took a high amount of torque to drain 45 kft/lbs. Bit had 3-plugged jets w
 
 -----
 
-Daily Drilling Report Geothermal Resource Group, Inc.
-
-![](img_p9_1.png)
-
-Well ID: Forge 78B-32 Well Name: 78B-32 Field: UTAHFORGE Sect: 32 Town: 26 Rng: 9W County: Beaver State: UT
-
----
-
-Report No: 28 Report For 24-Jul-21
-
----
-
-Operations Summary
-
----
-
-From To Elapsed End MD(ft) Code Operations Description Non-Prod
-
----
-
-16:15 17:00 0.75 8,545 4-12-1 Run 7", 41#, T-110SS, Tenaris casing from 6,614' to 7,070'.
-
-Note: Floats failed at 6,795' while running casing gained 81k in hook load. All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling.
-
----
-
-17:00 17:30 0.50 8,545 4-99 Performed continuity test on fiber optics at 7,070'.
-
-Test indicated one of the five fiber-optic had failed at 4,000' from surface. Decision was made to run in one joint to 7,106' and circulate bottoms up.
-
----
-
-17:30 19:00 1.50 8,545 3-5-1 Circulated bottoms up at 7,106'.
-
-Max surface flow temperature was 99 degrees Fahrenheit. Static temperature reading at 6,966' with fiber-optic cable was 359 degrees Fahrenheit.
-
----
-
-19:00 19:45 0.75 8,545 4-12-1 Run 7", 41#, T-110SS, Tenaris casing from 7,070' to 7,812'.
-
-Note: All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling.
-
----
-
-19:45 20:00 0.25 8,545 4-99 Performed continuity test on fiber optics at 7,812'.
-
-Test indicated all five fiber-optic cables failed from 4,500' to 7,812'. Static temperature was 240 degrees Fahrenheit at 4,500'.
-
----
-
-20:00 21:15 1.25 8,545 4-12-1 Ran 7", 41#, T-110SS, Tenaris casing from 7,812' to set depth of 8,508'.
-
-Shoe set at 8,508' KB. Float collar at 8,414' KB. Note: All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling. Thread locked last 3 joints in the hole below landing joint.
-
----
-
-21:15 21:30 0.25 8,545 4-99 Performed continuity test on fiber optics at 8,508'.
-
-Test indicated all five fiber-optic cables failed from 3,933' to 8508'. Static temperature was 208 degrees Fahrenheit at 3,933'.
-
----
-
-21:30 22:30 1.00 8,545 4-99 Rigged down CRT tool.
-
-Rigged up cement head. Broke circulation.
-
----
-
-22:30 0:00 1.50 8,545 3-5-1 Circulated at 16 bbl's per min to cool well bore.
-
-Mixed and pumped 4ppb Micro C while circulating.Cleaned and cleared floor while circulating.
-
----
-
-Management Summary
-
----
-
-Ran 7", 41#, T-110SS, Tenaris casing from 2,380' to 3,722'. Installed new spool of fiber-optic cable on unit. Ran fiber-optic cable to rig floor. Spliced on new fiber-optic cable at 3,722'. Ran 7", 41#, T-110SS, Tenaris casing from 3,711' to set depth of 8,508'. Rigged down CRT tool. Rigged up cement head. Broke circulation. Circulated at 16 bbl's per min to cool well bore. Mixed and pumped 4ppb Micro C while circulating. Cleaned and cleared floor while circulating.
-
----
-
-Comments
-
----
-
-Splice on new fiber-optic cable at 3,722'. Performed continuity test on fiber optics every 15 joints while running casing. Floats failed at 6,795' while running empty casing. Performed continuity test on fiber optics at 7,070'. Test indicated one of the five fiber-optic had failed at 4,000' from surface. Performed continuity test on fiber optics at 7,812'. Test indicated all five fiber-optic cables failed from 4,500' to 7,812'. Static temperature was 240 degrees Fahrenheit at 4,500'. Performed continuity test on fiber optics at 8,508'. Test indicated all five fiber-optic cables failed from 3,933' to 8508'. Static temperature was 208 degrees Fahrenheit at 3,933'.
+| Report No: From | Daily Drilling Report Well ID: Forge 78B-32 Field: UTAHFORGE Report No: 28 To | Daily Drilling Report Well ID: Forge 78B-32 Field: UTAHFORGE Elapsed | Daily Drilling Report Well ID: Forge 78B-32 Field: UTAHFORGE End MD(ft) | Daily Drilling Report Well ID: Forge 78B-32 Code | Geothermal Resource Group, Inc. Well Name: 78B-32 Sect: 32 Town: 26 Rng: 9W County: Beaver State: UT Report For 24-Jul-21 Operations Summary Operations Description Non-Prod |
+|---|---|---|---|---|---|
+| 16:15 | 17:00 | 0.75 | 8,545 | 4-12-1 | Run 7", 41#, T-110SS, Tenaris casing from 6,614' to 7,070'. Note: Floats failed at 6,795' while running casing gained 81k in hook load. All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling. |
+| 17:00 | 17:30 | 0.50 | 8,545 | 4-99 | Performed continuity test on fiber optics at 7,070'. Test indicated one of the five fiber-optic had failed at 4,000' from surface. Decision was made to run in one joint to 7,106' and circulate bottoms up. |
+| 17:30 | 19:00 | 1.50 | 8,545 | 3-5-1 | Circulated bottoms up at 7,106'. Max surface flow temperature was 99 degrees Fahrenheit. Static temperature reading at 6,966' with fiber-optic cable was 359 degrees Fahrenheit. |
+| 19:00 | 19:45 | 0.75 | 8,545 | 4-12-1 | Run 7", 41#, T-110SS, Tenaris casing from 7,070' to 7,812'. Note: All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling. |
+| 19:45 | 20:00 | 0.25 | 8,545 | 4-99 | Performed continuity test on fiber optics at 7,812'. Test indicated all five fiber-optic cables failed from 4,500' to 7,812'. Static temperature was 240 degrees Fahrenheit at 4,500'. |
+| 20:00 | 21:15 | 1.25 | 8,545 | 4-12-1 | Ran 7", 41#, T-110SS, Tenaris casing from 7,812' to set depth of 8,508'. Shoe set at 8,508' KB. Float collar at 8,414' KB. Note: All joints were torqued to manufactures optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling. Thread locked last 3 joints in the hole below landing joint. |
+| 21:15 | 21:30 | 0.25 | 8,545 | 4-99 | Performed continuity test on fiber optics at 8,508'. Test indicated all five fiber-optic cables failed from 3,933' to 8508'. Static temperature was 208 degrees Fahrenheit at 3,933'. |
+| 21:30 | 22:30 | 1.00 | 8,545 | 4-99 | Rigged down CRT tool. Rigged up cement head. Broke circulation. |
+| 22:30 | 0:00 | 1.50 | 8,545 | 3-5-1 | Circulated at 16 bbl's per min to cool well bore. Mixed and pumped 4ppb Micro C while circulating.Cleaned and cleared floor while circulating. |
+|  |  |  |  |  | Management Summary |
+| Ran 7", Installed Spliced on Ran 7", Rigged Rigged up Broke Circulated Mixed and Cleaned and | 41#, T-110SS, new spool new fiber-optic 41#, T-110SS, down CRT cement circulation. at 16 bbl's pumped cleared | Tenaris of fiber-optic cable Tenaris tool. head. per min to 4ppb Micro C floor while | casing from cable on at 3,722'. casing from cool well while circulating. | 2,380' to unit. Ran 3,711' to set bore. circulating. | 3,722'. fiber-optic cable to rig floor. depth of 8,508'. |
+|  |  |  |  |  | Comments |
+| Splice on Performed Floats Performed Test indicated Performed Test indicated Static Performed Test indicated Static | new fiber-optic continuity failed at 6,795' continuity one of continuity all five temperature continuity all five temperature | cable test on fiber while test on fiber the five test on fiber fiber-optic was 240 test on fiber fiber-optic was 208 | at 3,722'. optics every running empty optics at fiber-optic had optics at cables failed degrees Fahrenheit optics at cables failed degrees Fahrenheit | 15 joints casing. 7,070'. failed at 4,000' 7,812'. from 4,500' at 8,508'. from 3,933' at | while running casing. from surface. to 7,812'. 4,500'. to 8508'. 3,933'. |
 
 ---
 
@@ -1841,7 +1768,7 @@ place. 20.Nov.2001 Made up and ran 3.60" gauge cutter. Found obstruction @11504f
 
 tandem Amerada gauges with 10-minute stops @5000/8000/10000 &11450ft (wl). Confirmed data captured.
 
-| Nov 2003 | Surface PBU built up to 685 psi after 7 day shut in |  |  |  |
+| Nov 2003 | Surface PBU built up to | 685 psi after 7 day | shut in |  |
 |---|---|---|---|---|
 | 19.Jan.2004 | Ran 3.80" gauge cutter. | Jarred | through obstruction | @ 11,187' rkb and |
 |  | could not past 11,476' | rkb. (HUD @ 11,456' | WLM | 11,476') |
@@ -1895,30 +1822,35 @@ Sajaa 1 - End Of Well Report iF
 
 NPT for Sajaa 1 was 13.1% of total time, 11.5% of total cost. The information is broken down in the tables & charts below:
 
-| Totals | Time [Hours] |  | Cost | % | of Total Time | \| % of Total | Cost |
-|---|---|---|---|---|---|---|---|
-| Baker | 79.0 |  | $355,106 |  | 11.8% | 9.8% |  |
-| bp | 0.0 |  | $0 |  | 0.0% | 0.0% |  |
-| GSI | 0.0 |  | $0 |  | 0.0% | 0.0% |  |
-| Halliburton | 3.5 |  | $20,778 |  | 0.5% | 0.6% |  |
-| Schlumberger | 5.2 |  | $41,209 |  | 0.8% | 1.1% |  |
-| SEAL | 0.0 |  | $0 |  | 0.0% | 0.0% |  |
-| Undefined | 0.4 |  | $1,413 |  | 0.1% | 0.0% |  |
-| Total NPT | 88.1 |  | $418,506 |  | 13.1% | 11.5% |  |
-| Total Well | 672.0 |  | $3,631,750 |  |  |  |  |
-| Productive | 583.9 |  | $3,213,244 |  | 86.9% | 88.5% |  |
-| Rig Days Total Well Cost | $3,631,750 | 28.0Days |  |  |  |  |  |
-| Totals | Time [Hours] |  | Cost |  | % of Total Time | \| % of Total Cost |  |
-| Baker | 21.1 |  | $94,695 |  | 3.1% | 2.6% |  |
-| bp |  | 0.0 |  | $0 | 0.0% | 0.0% |  |
-| GSI |  | 0.0 |  | $0 | 0.0% | 0.0% |  |
-| Halliburton |  | 3.5 | $20,778 |  | 0.5% | 0.6% |  |
-| Schlumberger |  | 5.2 | $41,209 |  | 0.8% | 1.1% |  |
-| SEAL |  | 0.0 |  | $0 | 0.0% | 0.0% |  |
-| Undefined |  | 0.4 | $1,413 |  | 0.1% | 0.0% |  |
-| Total NPT | 30.2 |  | $158,095 |  | 4.5% | 4.4% |  |
-| Total Well | 672.0 |  | $3,631,750 |  |  |  |  |
-| Productive | 641.8 |  | $3,473,655 |  | 95.5% | 95.6% |  |
+| Totals | Time [Hours] | Cost | % of Total Time | \| % of Total Cost |
+|---|---|---|---|---|
+| Baker | 79.0 | $355,106 | 11.8% | 9.8% |
+| bp | 0.0 | $0 | 0.0% | 0.0% |
+| GSI | 0.0 | $0 | 0.0% | 0.0% |
+| Halliburton | 3.5 | $20,778 | 0.5% | 0.6% |
+| Schlumberger | 5.2 | $41,209 | 0.8% | 1.1% |
+| SEAL | 0.0 | $0 | 0.0% | 0.0% |
+| Undefined | 0.4 | $1,413 | 0.1% | 0.0% |
+| Total NPT | 88.1 | $418,506 | 13.1% | 11.5% |
+| Total Well | 672.0 | $3,631,750 |  |  |
+| Productive | 583.9 | $3,213,244 | 86.9% | 88.5% |
+
+Rig Days 28.0Days Total Well Cost $3,631,750
+
+Every failure of a BHA was recorded as NPT against Baker (NB: this includes BHI & BOT) as per bp standard procedure, to remove any subjectivity from the appliance of NPT criteria. However, bp considers the use of 2 milling BHA's per window (1 to run Whipstock and one to mill the window) and 2 drilling BHA's per leg as a reasonable technical limit for this project, given the downhole temperatures and drilling fluid pumped. Accordingly, the NPT for BHI using these criteria would be reduced to:
+
+| Totals | Time [Hours] | Cost | % of Total Time | \| % of Total Cost |
+|---|---|---|---|---|
+| Baker | 21.1 | $94,695 | 3.1% | 2.6% |
+| bp | 0.0 | $0 | 0.0% | 0.0% |
+| GSI | 0.0 | $0 | 0.0% | 0.0% |
+| Halliburton | 3.5 | $20,778 | 0.5% | 0.6% |
+| Schlumberger | 5.2 | $41,209 | 0.8% | 1.1% |
+| SEAL | 0.0 | $0 | 0.0% | 0.0% |
+| Undefined | 0.4 | $1,413 | 0.1% | 0.0% |
+| Total NPT | 30.2 | $158,095 | 4.5% | 4.4% |
+| Total Well | 672.0 | $3,631,750 |  |  |
+| Productive | 641.8 | $3,473,655 | 95.5% | 95.6% |
 
 Rig Days 28.0 days Total Well Cost $3,631,750
 
@@ -1956,9 +1888,9 @@ Sajaa 1 - End Of Well Report
 
 NPT Time Breakdown:
 
-###### BAKER
-
-###### Date Time Problem
+| BAKER |  |  |  |  |
+|---|---|---|---|---|
+| Date | Time | Problem |  |  |
 
 | 14th Feb | 14.33Short in Whipstock BHA#2 |
 |---|---|
@@ -1974,13 +1906,15 @@ NPT Time Breakdown:
 | 1-Mar | 9.97Orienter Failure in BHA #14 (contd.) |
 | Totals | 79.02 |
 
-###### BP
-
-Date Time Problem
-
-###### Totals 0.00 BP SLB
-
-###### Date Time Problem
+|  |  |  |  |  |
+|---|---|---|---|---|
+| BP |  |  |  |  |
+| Date | Time | Problem |  |  |
+| Totals | 0.00 |  |  |  |
+| BP |  |  |  |  |
+|  |  |  |  |  |
+| SLB |  |  |  |  |
+| Date | Time | Problem |  |  |
 
 | 13-Feb | 1.58Adjust faulty gooseneck support arm (coil in hole) |
 |---|---|
@@ -2043,16 +1977,17 @@ bp
 
 Sajaa 1 - End Of Well Report
 
-| Date Time | Problem | Daily Cost NPT cost |
-|---|---|---|
-| 18-Feb | $96,897 | $1,413 |
-| Totals Misc. | Dollars | $1,413 |
+**Date Time Problem Daily Cost NPT cost**
 
-###### Seal
-
-| Date Time | Problem | Daily Cost NPT cost $0 |
-|---|---|---|
-| Totals Seal | Dollars | $0 |
+| 18-Feb Totals | 0.35Problem 0.35 | with | crane | computer | system | while | undeploying. | $96,897 Dollars | $1,413 $1,413 |
+|---|---|---|---|---|---|---|---|---|---|
+| Misc. |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+| Seal |  |  |  |  |  |  |  |  |  |
+| Date Time |  | Problem |  |  |  |  | Daily | Cost | NPT cost |
+| Totals | 0.00 |  |  |  |  |  |  | Dollars | $0 $0 |
+| Seal |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
 
 ###### Service Company NPT Comparison For Sajaa 3, 15, 7, 16, 4, 32, 17, 42, 5 & 1
 
@@ -2364,9 +2299,9 @@ If the oil and gas industry is to achieve the needed step change in culture, ris
 
 Human/Equipment Interaction
 
-Human Interface/ Human/Management Performance System Interaction
-
-A al
+| Human Interface/ Performance |  | Human/Management System Interaction |
+|---|---|---|
+|  | A al |  |
 
 **Fig. 3-Human-factors elements.**
 
@@ -2853,12 +2788,10 @@ Sajaa 9 - End Of Well Report 2
 
 NPT for Sajaa 9 was 8.2% of total time and 5.1% of total cost. This is the 3rd lowest NPT time and 4th lowest NPT cost since the start of the project.
 
-**Totals Time Cost % of Total Time** | **% of Total Cost**
-
-###### [Hours]
-
-| Baker | 27.40 | $131,424 | 6.3% | 4.4% |
+| Totals | Time | Cost | % of Total Time | \| % of Total Cost |
 |---|---|---|---|---|
+|  | [Hours] |  |  |  |
+| Baker | 27.40 | $131,424 | 6.3% | 4.4% |
 | bp | 0.00 | $0 | 0.0% | 0.0% |
 | GSI | 1.00 | $4,136 | 0.2% | 0.1% |
 | Halliburton | 0.58 | $2,399 | 0.1% | 0.1% |
@@ -2869,8 +2802,7 @@ NPT for Sajaa 9 was 8.2% of total time and 5.1% of total cost. This is the 3rd l
 | Total NPT | 35.31 | $153,578 | 8.2% | 5.2% |
 | Total Well | 432.00 | $2,971,485 |  |  |
 | Productive | 396.69 | $2,820,617 | 91.8% | 94.9% |
-
-Rig Days 18.0 Days
+| Rig Days | 18.0 | Days |  |  |
 
 Every failure of a BHA was recorded as NPT against Baker (NB: this includes BHI & BOT) as per bp standard procedure, to remove any subjectivity from the appliance of NPT criteria. However, bp considers the use of 2 milling BHA's per window (1 to run Whipstock and one to mill the window) and 1 drilling BHA per leg as a reasonable technical limit for this project, given the down hole temperatures and drilling fluid pumped. Accordingly, the NPT for Baker using these criteria would have been reduced to:
 
@@ -2878,21 +2810,21 @@ Every failure of a BHA was recorded as NPT against Baker (NB: this includes BHI 
 
 Baker bp GSI Halliburton Schlumberger SEAL Undefined Al Faris Total NPT Total Well Productive
 
-| Time Cost % of Total % of Total |  |  |  |  |  |  |  |
-|---|---|---|---|---|---|---|---|
-| [Hours] |  |  | Time |  |  | Cost |  |
-| Totals | Time |  | Cost |  |  | % of Total |  |
-|  | [Hours] |  |  |  |  | Time |  |
-| Baker |  | 3.9 |  | $18,775 |  |  | 0.9% |
-| bp |  | 0.0 |  |  | $0 |  | 0.0% |
-| GSI |  | 1.0 |  | $4,136 |  |  | 0.2% |
-| Halliburton |  | 0.6 |  | $2,399 |  |  | 0.1% |
-| Schlumberger |  | 2.2 |  | $12,909 |  |  | 0.5% |
-| SEAL |  | 0.0 |  |  | $0 |  | 0.0% |
-| Undefined |  | 0.0 |  |  | $0 |  | 0.0% |
-| Al Faris |  | 4.2 |  |  | $0 |  | 1.0% |
-| Total NPT |  | 7.7 |  | $38,219 |  |  | 1.8% |
-| Total Well |  | 432.0 | $2,971,485 |  |  |  |  |
+|  | Time | Cost | % of Total | % of Total |
+|---|---|---|---|---|
+|  | [Hours] |  | Time | Cost |
+|  | Totals | Time | Cost | % of Total |
+|  |  | [Hours] |  | Time |
+|  | Baker | 3.9 | $18,775 | 0.9% |
+|  | bp | 0.0 | $0 | 0.0% |
+|  | GSI | 1.0 | $4,136 | 0.2% |
+|  | Halliburton | 0.6 | $2,399 | 0.1% |
+|  | Schlumberger | 2.2 | $12,909 | 0.5% |
+|  | SEAL | 0.0 | $0 | 0.0% |
+|  | Undefined | 0.0 | $0 | 0.0% |
+|  | Al Faris | 4.2 | $0 | 1.0% |
+|  | Total NPT | 7.7 | $38,219 | 1.8% |
+|  | Total Well | 432.0 | $2,971,485 |  |
 
 sajaa 9 eowr.doc Page 15 of 32
 
@@ -2962,9 +2894,11 @@ Sajaa 9 - End Of Well Report
 
 ###### NPT Time Breakdown:
 
-###### BAKER
+| BAKER |  |  |  |  |
+|---|---|---|---|---|
+| Date | Time | Problem | Daily Cost | NPT cost |
 
-Date 11-Jan 11-Jan 12-Jan 12-Jan
+11-Jan 11-Jan 12-Jan 12-Jan
 
 ###### Totals
 
@@ -2972,15 +2906,11 @@ Date 11-Jan 11-Jan 12-Jan 12-Jan
 
 Date
 
-Time Problem
-
 14.07 Orienter failure 6.91 | GR tool failure 6.00 | Orienter failure 0.42 | Re-boot BHI computer
 
 **27.40**
 
 Time Problem
-
-Daily Cost
 
 $106,441 $106,441 $143,465 $143,465
 
@@ -2988,7 +2918,7 @@ $106,441 $106,441 $143,465 $143,465
 
 Daily Cost
 
-NPT cost $62,401 $30,646 $35,866 $2,511
+$62,401 $30,646 $35,866 $2,511
 
 **$131,424**
 
@@ -3103,16 +3033,17 @@ sajaa 9 eowr.doc Page 23 of 32
 
 -----
 
-Window Top @ 11,456 ft MD Window Bottom bp @ 11,470 ftMD
-
-Sajaa 9 - End Of Well Report
-
-C-2 Tie Back Sleeve 5.25" ID, top @
-
-| 11,253.72 ft MD Job LEN top # 3.688 inch ID | Job Date | Job ID | Client Name | \| Well Name | Job Description | GN  (in) | H2S Level (ppm) | CO2 (%) |
-|---|---|---|---|---|---|---|---|---|
-| @11,278.09 ft 18 MD, open | 11-Jan-06 | BHA 6 | BP | Sajaa 09 | Drill Leg 4C - Fail | 100 | 40 | 4 |
-| orientation 145L 19 Leg B @ 20 \| 14-Jan-06 | 11-Jan-06 | BHA 7 | BP BP | Sajaa 09 Sajaa 09 | Drill Leg 4C cut 15ft CT & 15 cable | 100 | 40 | 4 |
+| Window Top 11,456 ft Window @ 11,470 C-2 Tie Sleeve | @ MD Bottom ftMD Sajaa 9 Back | - End Of Well | Report |  |  |  |  | bp |  |
+|---|---|---|---|---|---|---|---|---|---|
+| 5.25" ID, top | @ |  |  |  |  |  |  |  |  |
+| 11,253.72 ft | MD |  |  |  |  |  |  | H2S |  |
+|  | Job | Job | Job | Client | \| Well | Job | GN  |  | CO2 |
+| LEN top |  |  |  |  |  |  |  | Level |  |
+| 3.688 inch | # ID | Date | ID | Name | Name | Description | (in) |  | (%) |
+|  |  |  |  |  |  |  |  | (ppm) |  |
+| @11,278.09 MD, | ft 18 open | 11-Jan-06 | BHA 6 | BP | Sajaa 09 | Drill Leg 4C - Fail | 100 | 40 | 4 |
+| orientation | 145L 19 | 11-Jan-06 | BHA 7 | BP | Sajaa 09 | Drill Leg 4C | 100 | 40 | 4 |
+| Leg B @ | 20 \| | 14-Jan-06 |  | BP | Sajaa 09 | cut 15ft CT & 15 cable |  |  |  |
 
 16,596 ft MD 11,773 ft TVD Window Leg B
 
